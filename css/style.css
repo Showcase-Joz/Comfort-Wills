@@ -38,6 +38,9 @@
 
 /* BASIC STYLES */
 
+.text-light {
+    color: #fff;
+}
 .text-orange {
     color: #CA8C1F;
 }
@@ -65,7 +68,7 @@ body {
 }
 
 h1,h2, h3, h4, h5, h6 {
-	font-family:''Raleway', sans-serif;
+	font-family:'Raleway', sans-serif;
 	font-weight: 600;
 	line-height:1.1em;
 	margin-bottom: 20px;
@@ -78,9 +81,19 @@ section#about h1{
     font-size: 40px;
     font-weight: 700;
 }
+section#about p {
+    font-size: 18px;
+    line-height: 24px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
 
-
-
+.side-img {
+    display: none;
+}
+.side-img img {
+    min-height: 100vh;
+}
 a:active {
 	outline:0;
 }
@@ -89,14 +102,17 @@ a:active {
 	clear:both;
 }
 
-
+.hr-half {
+    width: 50%;
+    margin: 50px auto;
+}
 .full {
     background: url(../img/1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 .full-orange {
   background-color: #CA8C1F;
@@ -104,17 +120,28 @@ a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
-
+.full-purple {
+  background-color: #8D437E;
+  color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 50vh;
+}
+section.full {
+    padding-right: 50px 0;
+}
 section.full > .container > .row {
     margin-top: 10%;
 }
 
 section.full .text {
     color: #8D437E;
-    background-color: rgba(151, 163, 149, 0.7);
-    padding: 20px;
+    background-color: transparent;
+    padding: 15px;
     font-size: 18px;
 }
 
@@ -122,13 +149,99 @@ section.full .text .text-inner {
     background: #fff;
     opacity: .7;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 section.full .text:hover .text-inner {
     opacity: 1;
 }
 
+/* FORMS */
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+  color: #fff;
+}
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+  color: #91be4f;
+}
+.input-group-addon {
+    padding: 6px 22px;
+    }
+.has-error .input-group-addon {
+    color: #cb545a;
+    background-color: #FCC2C5;
+    border-color: #cb545a;
+}
+.has-success .input-group-addon {
+    color: #91be4f;
+    background-color: #DBF2BA;
+    border-color: #91be4f;
+}
+#contact .form-group .help-block {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+}
+#success_message { display: none;}
+#success_message{ display: none;}
+#contact_form .form-control-feedback {
+    top: 50px;
+}
+#contact .form-group #checkboxSuccess ~ span {
+    font-style: italic;
+    font-size: x-small;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 20px;
+}
+
+.parallax-window {
+    background: 0 0
+}
+
+.parallax-vehicle {
+    position: relative;
+    min-height: 400px;
+}
+
+.parallax-vehicle .title {
+    position: absolute;
+    bottom: 0;
+    padding: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #fff;
+    font-size: 50px;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+footer {
+    min-height: 100px;
+    color: #fff;
+    background-color: #8D437E;
+}
+footer .container .footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+.google-map-container {
+    padding: 0;
+}
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
 .form-top {
     overflow: hidden;
     padding: 0 25px 15px 25px;
@@ -172,6 +285,7 @@ section.full .text:hover .text-inner {
 
 .form-bottom form .form-links a {
     color: #fff;
+    font-size: smaller;
 }
 
 .form-bottom form .form-links a:hover,
@@ -189,7 +303,7 @@ textarea.form-control {
     vertical-align: middle;
     background: #f8f8f8;
     border: 1px solid #ddd;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 50px;
@@ -197,9 +311,6 @@ textarea.form-control {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    -moz-box-shadow: 0 1px 0 0 #fff;
-    -webkit-box-shadow: 0 1px 0 0 #fff;
-    box-shadow: 0 1px 0 0 #fff;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
@@ -243,6 +354,31 @@ textarea.form-control::-webkit-input-placeholder {
     color: #888;
 }
 
+
+
+.tel-no,
+.tel-no:focus,
+.tel-no:hover,
+.email,
+.email:focus,
+.email:hover
+ {
+  color: #CA8C1F;
+    text-decoration: none;
+    text-transform: uppercase;
+  transition: 300ms all ease-in-out;
+}
+.tel-no:hover,
+.email:hover {
+    color: #aaa;
+}
+.fa-3 {
+    font-size: 8em;
+    float: right;
+}
+.contact-methods:last-of-type {
+    display: block;
+}
 .btn-orange {
     color: #FFFFFF;
     background-color: #CA8C1F;
@@ -336,10 +472,19 @@ fieldset[disabled] .btn-purple.active {
 }
 
 @media (min-width: 992px) {
+
     section.full .text {
+        color: #8D437E;
+        background-color: rgba(151, 163, 149, 0.7);
+        padding: 20px;
+        font-size: 18px;
         border-top-right-radius: 50px;
     }
     section.full .text .text-inner {
+        background: #fff;
+        opacity: .7;
+        padding: 20px;
+        margin: 20px 0;
         border-top-right-radius: 100px;
     }
     section.full .text:hover .text-inner {
@@ -348,4 +493,30 @@ fieldset[disabled] .btn-purple.active {
     .form-top {
         border-top-left-radius: 50px;
     }
+
+.side-img {
+    display: block;
+    overflow-x: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.side-img img {
+    max-height: 100vh;
+    height: 100%;
+}
+
+.fa-3 {
+    margin-left: -20px;
+    float: left;
+}
+}
+
+@media (min-width: 1200px) {
+
+.fa-3 {
+    float: left;
+    margin-left: auto;
+}
+
 }
