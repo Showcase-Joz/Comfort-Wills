@@ -326,6 +326,7 @@ footer .container .footer {
     border-bottom: 1px dotted #8D437E;
 }
 input[type="text"],
+input[type="tel"],
 textarea,
 textarea.form-control {
     height: 50px;
