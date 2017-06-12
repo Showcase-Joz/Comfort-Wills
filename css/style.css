@@ -55,16 +55,40 @@
 }
 
 
-/*!
- * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
     font-family: 'Raleway', sans-serif;
-    background: none;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	background: none;
 }
+
+h1,h2, h3, h4, h5, h6 {
+	font-family:''Raleway', sans-serif;
+	font-weight: 600;
+	line-height:1.1em;
+	margin-bottom: 20px;
+}
+section.full h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+section#about h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+a:active {
+	outline:0;
+}
+
+.clear {
+	clear:both;
+}
+
 
 .full {
     background: url(../img/1.jpg) no-repeat center center fixed;
@@ -74,9 +98,17 @@ body {
     background-size: cover;
     height: 100vh;
 }
+.full-orange {
+  background-color: #CA8C1F;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
 
 section.full > .container > .row {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 section.full .text {
