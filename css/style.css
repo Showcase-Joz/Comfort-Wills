@@ -78,6 +78,9 @@ h6 {
     margin-bottom: 20px;
 }
 
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
 section.full h2 {
     font-size: 32px;
     font-weight: 700;
@@ -169,7 +172,9 @@ section.full .text .text-inner {
 section.full .text:hover .text-inner {
     opacity: 1;
 }
-
+section#contact {
+    padding: 20px;
+}
 
 /* FORMS */
 
@@ -248,18 +253,19 @@ section.full .text:hover .text-inner {
 .parallax-vehicle .title {
     position: absolute;
     bottom: 0;
-    padding: 60px;
+    padding: 30px;
     text-transform: uppercase;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 3px;
     color: #fff;
-    font-size: 50px;
+    font-size: 32px;
     width: 100%;
-    line-height: 50px;
-    margin-bottom: 40px;
+    line-height: 36px;
+    margin-bottom: 20%;
 }
+
 footer {
     color: #fff;
     background-color: #8D437E;
@@ -309,6 +315,7 @@ footer .container .footer {
 .form-bottom {
     padding: 25px 25px 30px 25px;
     text-align: left;
+    margin-bottom: 50px;
 }
 .form-bottom form textarea {
     height: 100px;
@@ -483,6 +490,30 @@ fieldset[disabled] .btn-purple.active {
 .btn-purple .badge {
     color: #8D437E;
     background-color: #FFFFFF;
+}
+
+@media (min-height: 768px) {
+/*.parallax-vehicle {
+    margin-top: 20px;
+}*/
+.parallax-vehicle .title {
+    position: absolute;
+    bottom: 0;
+    padding: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .5);
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #fff;
+    font-size: 50px;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+section#contact {
+    padding: inherit;
+}
 }
 @media (min-width: 992px) {
     section.full .text {
