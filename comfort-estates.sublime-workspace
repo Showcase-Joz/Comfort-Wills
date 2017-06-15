@@ -159,7 +159,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 21763,
+				"buffer_size": 23403,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -205,11 +205,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Agent1/Documents/GitHub/tfpc-static2"
+		"/C/Users/Agent1/Google~Drive/funeral~planning~co/websites~-~current~iteration/GitHub/Comfort-Wills"
 	],
 	"file_history":
 	[
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/comfort-estates.sublime-project",
 		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.php",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/css/style.css",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/tfpc-static2/contact.php",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.html",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/js/main.js",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/index.php",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/css/style.css",
@@ -254,6 +258,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"funeral pla",
+			"keyword",
+			"index.",
+			"comfortfuneralplans.co.uk",
+			"15",
+			"Comfort Funeral Plans",
+			"modal",
+			"textarea.form-control",
+			"@m",
+			"textarea.form-control",
+			"input",
+			"keyword",
+			"keywords",
+			"description",
+			"Comfort Funeral Plans",
 			" <form",
 			"form-horizontal",
 			"form",
@@ -366,22 +385,7 @@
 			"></i>\n",
 			";\n",
 			"86b85c",
-			"cbec9c",
-			"fff",
-			"917eb6",
-			"ffe769",
-			"a4c",
-			"e7d",
-			"fff1a8",
-			"766CA0",
-			"E7A292",
-			"A4CE82",
-			"FFE769",
-			"766CA0",
-			"E7A292",
-			"A4CE82",
-			"FFE769",
-			"E7A292"
+			"cbec9c"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -389,6 +393,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"comfortestateplanning.co.uk",
+			"Comfort Estate Planning",
 			"https://thefuneralplanningcompany.co.uk",
 			"Comfort Estate Planning",
 			"=\"200\"",
@@ -442,7 +448,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21763,
+						"buffer_size": 23403,
 						"regions":
 						{
 						},

@@ -99,6 +99,15 @@ section#about p {
     letter-spacing: 1px;
 }
 
+section#privacy-policy {
+    position: relative;
+    top: 50px;
+}
+
+section#privacy-policy {
+    color: #fff;
+}
+
 .side-img {
     display: none;
 }
@@ -562,6 +571,9 @@ fieldset[disabled] .btn-purple.active {
     .input-group-addon {
         padding: 6px 22px;
     }
+    input[type="text"],
+    input[type="tel"],
+    textarea,
     textarea.form-control {
         height: 50px;
         margin: 0;

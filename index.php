@@ -1,3 +1,29 @@
+<?php
+if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
+{
+  
+  $to = 'admin@thefuneralplanningcompany.co.uk';
+  
+  $subject = 'Contact Form';
+  
+  $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
+  $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+  $headers .= "MIME-Version: 1.0\r\n";
+  $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+  
+  
+  $message .= '<p><strong>'.strip_tags($_POST['first_name']).' '.strip_tags($_POST['last_name']).' made an enquiry the contact number is '.strip_tags($_POST['phone']).'</strong></p>';
+  $message .= '<p><strong>'.strip_tags($_POST['comment']).'</strong></p>';
+  
+  
+  mail($to, $subject, $message, $headers);
+  $_POST["email"]="";
+  $_POST["first_name"]="";
+  $_POST["last_name"]="";
+  $_POST["phone"]="";
+  $_POST["comment"]=""; 
+}
+?>
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Organization">
 
@@ -6,9 +32,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Comfort Funeral Plans</title>
-  <meta name="description" content="Comfort Funeral Plans works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.">
-  <meta name="author" content="Comfort Funeral Plans">
+  <title>Comfort Estate Planning</title>
+  <meta name="description" content="Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.">
+  <meta name="author" content="Comfort Estate Planning">
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
@@ -37,24 +63,24 @@
   {
     "@context": "http://schema.org",
     "@type": "InsuranceAgency",
-    "name": "Comfort Funeral Plans",
+    "name": "Comfort Estate Planning",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "15 Kingston Mill, Chestegate",
+      "streetAddress": "15a Kingston Mill, Chestegate",
       "addressLocality": "Stockport",
       "addressRegion": "",
       "postalCode": "SK3 0AL"
     },
     "image": "http://comfortfuneralplans.co.uk/img/logo.png",
     "email": "info@comfortfuneralplans.co.uk",
-    "telePhone": "0800 0987 931",
+    "telePhone": "0161 282 1930",
     "url": "http://comfortfuneralplans.co.uk",
     "paymentAccepted": ["credit card", "invoice"],
     "openingHours": "Mo,Tu,We,Th,Fr 10:00-20:00",
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "53.408502",
-      "longitude": "-2.1687369999999646"
+      "longitude": "-2.1687369999999648"
     },
     "priceRange": "$$$"
 
@@ -62,26 +88,26 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "url": "http://comfortfuneralplans.co.uk/index.html",
-    "name": "Comfort Funeral Plans - The best prepaid funeral plans",
-    "description": "Comfort Funeral Plans works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.",
+    "name": "Comfort Estate Planning - The best prepaid funeral plans",
+    "description": "Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.",
     "keywords": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners",
     "Audience": {
       "@context": "https://schema.org",
       "type": "audience",
       "audienceType": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker"
     },
-    "publisher": "Comfort Funeral Plans",
+    "publisher": "Comfort Estate Planning",
     "author": {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Comfort Funeral Plans",
+      "name": "Comfort Estate Planning",
       "legalName": "Mark White Enterprises",
-      "alternateName": "TFPC",
+      "alternateName": "Comfort ",
       "url": "http://comfortfuneralplans.co.uk",
       "logo": "http://comfortfuneralplans.co.uk/img/logo.png",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "15 Kingston Mill",
+        "streetAddress": "15a Kingston Mill",
         "addressLocality": "Stockport",
         "addressRegion": "Greater Manchester",
         "postalCode": "SK3 0AL",
@@ -94,10 +120,7 @@
       },
       "foundingLocation": "address",
       "sameAs": [
-        "https://www.facebook.com/TheFuneralPlanningCompany/",
-        "https://www.linkedin.com/company-beta/11152211/",
-        "https://twitter.com/thefuneralplans",
-        "https://www.google.com/maps/place/The+Funeral+Planning+Company/@53.408543,-2.1709627,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb370ca6f3863:0xc88a80d07b2baad4!8m2!3d53.408543!4d-2.168774?hl=en-GB"
+        "https://www.facebook.com/TheFuneralPlanningCompany/"
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
@@ -193,8 +216,8 @@
               </div>
               <button type="submit" class="btn btn-lg btn-purple">Enquire now!</button>
               <div class="form-links pull-right">
-                <a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> -
-                <a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
+                <a href="privacy.html">Privacy</a> -
+                <a href="disclaimer.html">Disclaimer</a>
               </div>
             </form>
           </div>
@@ -249,7 +272,7 @@
               <div class="col-xs-8">
                 <h4 itemprop="name">Comfort Estate Planning</h4>
                 <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                  <span itemprop="streetAddress">15 Kingston Mill</span>
+                  <span itemprop="streetAddress">15a Kingston Mill</span>
                   <br>
                   <span itemprop="addressLocality">Stockport</span>
                   <br>
@@ -293,7 +316,7 @@
                       <div class="inputGroupContainer">
                         <div class="input-group">
                           <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                          <input class="form-control" name="last_name" placeholder="Last Name" type="text" <?php echo $_POST["last_name"] ?>">
+                          <input class="form-control" name="last_name" placeholder="Last Name" type="text" value="<?php echo $_POST["last_name"] ?>">
                         </div>
                       </div>
                     </div>
@@ -305,7 +328,7 @@
                   <div class="inputGroupContainer">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-at"></i></span>
-                      <input aria-describedby="inputemailStatus" class="form-control" id="inputemail" name="email" placeholder="j.smith@hotmail.com" type="text" <?php echo $_POST["email"] ?>">
+                      <input aria-describedby="inputemailStatus" class="form-control" id="inputemail" name="email" placeholder="j.smith@hotmail.com" type="text" value=" <?php echo $_POST["email"] ?>">
                     </div>
                   </div><span aria-hidden="true" class="fa fa-ok form-control-feedback"></span> <span class="sr-only" id="inputemailStatus">(success)</span>
                 </div>
@@ -315,7 +338,7 @@
                   <div class="inputGroupContainer">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                      <input class="form-control" name="phone" placeholder="0161 282 1930" type="text" <?php echo $_POST["phone"] ?>">
+                      <input class="form-control" name="phone" placeholder="0161 282 1930" type="text" value="<?php echo $_POST["phone"] ?>">
                     </div>
                   </div>
                 </div>
@@ -325,7 +348,7 @@
                   <div class="inputGroupContainer">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="fa fa-terminal"></i></span>
-                      <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" <?php echo $_POST["comment"] ?>"></textarea>
+                      <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" value=" <?php echo $_POST["comment"] ?>"></textarea>
                     </div>
                   </div>
                 </div>
@@ -336,7 +359,7 @@
                       <div class="has-succes">
                         <div class="checkbox">
                           <label>
-                            <input data-error="Sign up to our mailing list?" id="checkboxSuccess" type="checkbox" value="mailing-list"> I'd like to stay informed! <span>Add me to your mailing-list</span></label>
+                            <input data-error="Sign up to our mailing list?" id="checkboxSuccess" checked="checked" type="checkbox" value="mailing-list"> I'd like to stay informed! <span>Add me to your mailing-list</span></label>
                         </div>
                       </div>
                     </div>
@@ -386,7 +409,27 @@
       </div>
     </div>
   </footer>
-  <!-- /.container -->
+
+  <!-- modal boxes -->
+    <!-- Modal -->
+    <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Message Received</h4>
+          </div>
+          <div class="modal-body">
+            Thank you for sending us a message. We have now received it and are directing it to the correct department.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-purple" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -413,6 +456,16 @@
       ga('send', 'pageview');
 
     </script>
+    <?php
+      if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
+      {   
+        echo "<script type='text/javascript'>
+      $(document).ready(function(){
+      $('#success').modal('show');
+      });
+      </script>";
+            }
+    ?>
 </body>
 
 </html>
