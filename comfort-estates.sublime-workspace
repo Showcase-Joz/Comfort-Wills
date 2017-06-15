@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pri",
+				"privacy"
+			],
+			[
 				"col-md",
 				"col-md-5"
 			],
@@ -155,15 +159,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 23403,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -185,7 +180,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 392.0
+		"width": 408.0
 	},
 	"console":
 	{
@@ -203,17 +198,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Agent1/Google~Drive/funeral~planning~co/websites~-~current~iteration/GitHub/Comfort-Wills"
-	],
 	"file_history":
 	[
-		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/comfort-estates.sublime-project",
-		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.php",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/tfpc-static2/css/style.css",
 		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/css/style.css",
-		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/tfpc-static2/contact.php",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/privacy.html",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/disclaimer.html",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.php",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/comfort-estates.sublime-project",
 		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.html",
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/tfpc-static2/contact.php",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/js/main.js",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/index.php",
 		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/css/style.css",
@@ -258,6 +252,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"300ms",
+			"brand",
+			"nav",
+			"transi",
+			"parallax-vehicle",
+			"wow-offset",
+			"offset=\"350",
+			"offset=\"200\"",
+			"\\\\",
 			"funeral pla",
 			"keyword",
 			"index.",
@@ -376,16 +379,7 @@
 			"color: rgba",
 			",1)",
 			"inter",
-			"togg",
-			"contact-m",
-			"footer .footer-widget form input",
-			"plac",
-			"\"></i>",
-			"\"></i>\n",
-			"></i>\n",
-			";\n",
-			"86b85c",
-			"cbec9c"
+			"togg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -393,6 +387,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"wow-delay",
+			"offset=\"600\"",
+			"offset=\"350\"",
+			"/",
 			"comfortestateplanning.co.uk",
 			"Comfort Estate Planning",
 			"https://thefuneralplanningcompany.co.uk",
@@ -439,39 +437,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23403,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
