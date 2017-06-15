@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col-md",
+				"col-md-5"
+			],
+			[
+				"col-",
+				"col-md-4"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"col-xs",
+				"col-xs-4"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fade",
+				"fadeInLeftBig"
+			],
+			[
+				"fb",
+				"fb8389"
+			],
+			[
+				"mail",
+				"mailing-list"
+			],
+			[
+				"s",
+				"stylesheet"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"color",
+				"color-complement-0"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align-last"
+			],
+			[
+				"rgba-se",
+				"rgba-secondary-1-0-100"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"interest",
+				"interest-content"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"se",
+				"bkcolor-secondary-1-3"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"ff",
+				"ffe985"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"prim",
+				"bkcolor-primary-0"
+			],
+			[
+				"the",
+				"thefuneralplanningcompany"
+			],
+			[
+				"King",
+				"Kingston"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"nav",
+				"navigation"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 21763,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packag",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2"
+	],
+	"file_history":
+	[
+		"/C/Users/Agent1/Google Drive/funeral planning co/websites - current iteration/GitHub/Comfort-Wills/index.php",
+		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/js/main.js",
+		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/index.php",
+		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/css/style.css",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/css/animate.css",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/css/style.css",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/what-is-a-funeral-plan.html",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/index.html",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/contact.php",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/js/main.js",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/contact.html",
+		"/C/Users/Agent1/Documents/GitHub/Comfort-Wills/index.html",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/js/contact-val.js",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/css/style3.css",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/css/font-awesome.css",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/index3.html",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/img/staff/staff-placeholder-alt.svg",
+		"/C/Users/Agent1/Documents/GitHub/tfpc-static2/js/ftellipsis.min.js",
+		"/C/Users/Agent1/Documents/GitHub/TFPC-static/css/main.css",
+		"/C/Users/Agent1/Documents/GitHub/TFPC-static/js/jquery.js",
+		"/C/Users/Agent1/Documents/GitHub/TFPC-static/js/main.js",
+		"/C/Users/Agent1/Documents/GitHub/TFPC-static/index.html",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Agent1/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" <form",
+			"form-horizontal",
+			"form",
+			"location",
+			"footer",
+			"indent",
+			"tab",
+			"0800",
+			".input-group-addon ",
+			".container",
+			".row",
+			"#contact",
+			".margin",
+			".parallax-vehicle .title",
+			"margin-bottom-20",
+			"h1",
+			"img",
+			"page-header-img",
+			"-']",
+			"pop",
+			"test",
+			"abou",
+			"about-funeral-plans",
+			"pop",
+			"about-funeral-plans",
+			"pop",
+			"body",
+			"pop",
+			"sens",
+			"initialize",
+			"api",
+			"form",
+			"bv",
+			"http://thefuneralplanningcompany.co.uk",
+			"http:",
+			"the fu",
+			"info",
+			"col-*",
+			"Comfort Estate Management",
+			"method",
+			"action",
+			"test",
+			"inn",
+			"=\"150\"",
+			".side-img",
+			"side",
+			"button",
+			"vehicle",
+			"misc",
+			"buttons",
+			"butt",
+			"success_message",
+			"_lpchecked ",
+			":",
+			"map",
+			"success_message",
+			"pul",
+			"forms",
+			"zip",
+			"phone",
+			"case",
+			"us",
+			"countrySelectBox",
+			"us",
+			"uk",
+			"phone",
+			".js",
+			"misc",
+			"glyphicon",
+			"Forms",
+			"styles",
+			"stand",
+			"pop-statement",
+			"footer",
+			"1200",
+			"h2",
+			"label",
+			"addit",
+			"<hr",
+			"hr/>",
+			"hr>",
+			"call-now",
+			"text-columns",
+			"you",
+			"twitter",
+			"linkedin",
+			"faceb",
+			"content",
+			"letter-sp",
+			"btn-interest-content",
+			">test<",
+			"btn-pur",
+			".btn",
+			"sub-",
+			"owl",
+			"67, 53, 123",
+			"-75 {",
+			"<h3>interest",
+			",0.75)",
+			",75)",
+			"color: rgba",
+			",1)",
+			"inter",
+			"togg",
+			"contact-m",
+			"footer .footer-widget form input",
+			"plac",
+			"\"></i>",
+			"\"></i>\n",
+			"></i>\n",
+			";\n",
+			"86b85c",
+			"cbec9c",
+			"fff",
+			"917eb6",
+			"ffe769",
+			"a4c",
+			"e7d",
+			"fff1a8",
+			"766CA0",
+			"E7A292",
+			"A4CE82",
+			"FFE769",
+			"766CA0",
+			"E7A292",
+			"A4CE82",
+			"FFE769",
+			"E7A292"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"https://thefuneralplanningcompany.co.uk",
+			"Comfort Estate Planning",
+			"=\"200\"",
+			"fa",
+			"><strong>test</strong><",
+			"-35 {",
+			"<h2>interest",
+			",0.35)",
+			",0.75)",
+			"background-color: rgba",
+			",75)",
+			"\" aria-hidden=\"true\"></i>",
+			" aria-hidden=\"true\"></i>",
+			"bdeb7b",
+			"ffffff",
+			"8065B2",
+			"ffe985",
+			"ffe769",
+			"917eb6",
+			"fba5b6",
+			"cbec9c",
+			"fff1a8",
+			"6a54af",
+			"e75f84",
+			"94e15d",
+			"FFE569",
+			"E5D583",
+			"e75f84",
+			"e86080",
+			"acdd5c",
+			"a3e65f",
+			"FFE169",
+			"A3E65F",
+			"FFE769"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "comfort-estates.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

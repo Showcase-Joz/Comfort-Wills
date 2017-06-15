@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Agent1\\Google Drive\\funeral planning co\\websites - current iteration\\GitHub\\Comfort-Wills"
+		}
+	],
+    "settings": {
+        "sublime-view-in-browser": {
+            "baseUrl": "http://localhost",
+            "basePath": "c:/wamp64/www"
+        }
+    }
+}
