@@ -325,6 +325,11 @@ footer div p {
     line-height: 14px;
 }
 
+footer a img {
+    height: 26px;
+    width: auto;
+}
+
 .google-map-container {
     padding: 0;
 }

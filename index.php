@@ -102,7 +102,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       "@type": "Organization",
       "name": "Comfort Estate Planning",
       "legalName": "Mark White Enterprises",
-      "alternateName": "Comfort ",
+      "alternateName": "Comfort Estates",
       "url": "http://comfortfuneralplans.co.uk",
       "logo": "http://comfortfuneralplans.co.uk/img/logo.png",
       "address": {
@@ -398,21 +398,17 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
           <p>part of the Comfort Holdings group</p>
         </div>
         <div class="col-xs-12 col-md-5">
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+          <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
           </a>
 
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+          <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
           </a>
 
-          <script language="JavaScript" type="text/javascript">
-TrustLogo("https://comfortestateplanning.co.uk/img/site/comodo_secure_seal_76x26_transp.png", "CL1", "none");
-</script>
-          <a title="Secure Website SSL" href="https://ssl.comodo.com" id="comodoTL">Comodo SSL</a>
+          <a href="https://ssl.comodo.com/comodo-ssl-certificate.php?track=8172">
+            <img src="https://comfortestateplanning.co.uk/img/site/comodo_secure_seal_76x26_transp.png" alt="Secure Website SSL connection" />
           </a>
-
-
 
         </div>
         <div class="col-xs-12 col-md-5">
