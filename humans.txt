@@ -1,0 +1,39 @@
+
+/* TEAM */
+                            
+Company: Comfort Estate Planning
+Sector: Wills & Estate Planning
+
+Business Address:
+15a Kingston Mill, 0AL, Chestergate, Stockport SK3 0AL
+HQ Stockport  0161 282 1930
+Toll Free  0800 0987 931
+Email: info@http://comfortestateplanning.co.uk
+
+https://www.linkedin.com/company/red-resource-uk
+https://uk.pinterest.com/redresourceuk
+https://www.instagram.com/redresourceuk
+https://www.facebook.com/RedResourceUK
+https://plus.google.com/+Redresourceuk
+https://twitter.com/RedResource
+https://www.youtube.com/c/Redresourceuk
+
+Monday - Friday: 8:30 AM to 6:00 PM
+
+Owner: Mark White
+Associate: Paul Griffin
+
+							
+/* THANKS */							
+
+Design Company: Showcase Imagery.                           
+Contact: info [@] showcaseimagery.com                            
+Twitter: @showcaseimagery                       
+Location: Chesterfield, UK.
+                            
+/* SITE */
+                            
+Last update: 2017/06/20                           
+Standards: HTML5, CSS3,.                           
+Components: Bootstrap, jQuery, WOW, Font Awesome, Animate custom etc.
+Doctype:HTML5

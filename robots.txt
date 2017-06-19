@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /.git/
+Disallow: /search/
+Disallow: comfort-estates.sublime-project
+Disallow: comfort-estates.sublime-workspace
+
+Sitemap: https://comfortestateplanning.co.uk/sitemap.xml.gz

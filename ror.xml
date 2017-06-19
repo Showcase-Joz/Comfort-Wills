@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://comfortestateplanning.co.uk/</title>
+  <link>https://comfortestateplanning.co.uk/</link>
+
+<item>
+     <link>https://comfortestateplanning.co.uk/</link>
+     <title>Comfort Estate Planning</title>
+     <description>Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://comfortestateplanning.co.uk/privacy.html</link>
+     <title>Comfort Estate Planning</title>
+     <description>Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://comfortestateplanning.co.uk/disclaimer.html</link>
+     <title>Comfort Estate Planning</title>
+     <description>Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://comfortestateplanning.co.uk/index.php</link>
+     <title>Comfort Estate Planning</title>
+     <description>Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
