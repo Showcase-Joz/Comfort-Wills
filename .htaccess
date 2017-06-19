@@ -529,24 +529,8 @@ RewriteEngine on
 # redirects .co.uk or www....co.uk to .com
 # redirects http to https
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} ^redresourceuk\.co\.uk$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.redresourceuk\.co\.uk$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.redresourceuk\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^redresourceuk\.com$ 
-RewriteRule ^(.*)$ "https\:\/\/redresourceuk\.com\/$1" [R=301,L]
-
-# 301 redirect pages
-Options +FollowSymlinks
-rewriterule ^vacancies/latest-job-spec.html(.*)$ https://redresourceuk.com/jobs-and-vacancies.html$1 [r=301,nc]
-rewriterule ^index3.html(.*)$ https://redresourceuk.com/index.html$1 [r=301,nc]
-rewriterule ^client-services.html(.*)$ https://redresourceuk.com/specialist-recruitment.html$1 [r=301,nc]
-rewriterule ^articles.html(.*)$ https://redresourceuk.com/archive-articles.html$1 [r=301,nc]
-rewriterule ^articles/search-and-selection-service.html(.*)$ http://redresourceuk.com/archive/search-and-selection-service.html$1 [r=301,nc]
-rewriterule ^articles/war-for-talent.html(.*)$ http://redresourceuk.com/archive/war-for-talent.html$1 [r=301,nc]
-rewriterule ^articles/boutique-recruitment.html(.*)$ http://redresourceuk.com/archive/boutique-recruitment.html$1 [r=301,nc]
-rewriterule ^sitemap.html(.*)$ https://redresourceuk.com/sitemap.xml.gz$1 [r=301,nc]
-rewriterule ^contacting-red-resource-uk.html(.*)$ https://redresourceuk.com/contacting-us.html$1 [r=301,nc]
-
-
-# 301 pages with hash in url
-rewriterule about-red-resource-uk.html https://redresourceuk.com/$1#whoarewe [NE,L,R=301]
+RewriteCond %{HTTP_HOST} ^comfortestateplanning\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.comfortestateplanning\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.comfortestateplanning\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^comfortestateplanning\.com$ 
+RewriteRule ^(.*)$ "https\:\/\/comfortestateplanning\.co.uk\/$1" [R=301,L]

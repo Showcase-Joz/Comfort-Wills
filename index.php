@@ -25,7 +25,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 }
 ?>
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/Organization">
+<html lang="en" itemscope itemtype="https://schema.org/Organization">
 
 <head>
   <meta charset="utf-8">
@@ -33,7 +33,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Comfort Estate Planning</title>
-  <meta name="description" content="Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.">
+  <meta name="description" content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.">
+  <meta name="keywords" content="senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates">
   <meta name="author" content="Comfort Estate Planning">
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -61,20 +62,20 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <![endif]-->
   <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "InsuranceAgency",
     "name": "Comfort Estate Planning",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "15a Kingston Mill, Chestegate",
       "addressLocality": "Stockport",
-      "addressRegion": "",
+      "addressRegion": "Greater Manchester",
       "postalCode": "SK3 0AL"
     },
-    "image": "http://comfortfuneralplans.co.uk/img/logo.png",
+    "image": "https://comfortfuneralplans.co.uk/img/logo.png",
     "email": "info@comfortfuneralplans.co.uk",
-    "telePhone": "0161 282 1930",
-    "url": "http://comfortfuneralplans.co.uk",
+    "telephone": "0161 282 1930",
+    "url": "https://comfortfuneralplans.co.uk",
     "paymentAccepted": ["credit card", "invoice"],
     "openingHours": "Mo,Tu,We,Th,Fr 10:00-20:00",
     "geo": {
@@ -87,14 +88,14 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   }, {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "http://comfortfuneralplans.co.uk/index.html",
+    "url": "https://comfortfuneralplans.co.uk/index.html",
     "name": "Comfort Estate Planning - The best prepaid funeral plans",
-    "description": "Comfort Estate Planning works with you. To help the occasion fit you; the person. Ensuring your funeral celebrates the memorable times you’ve had in life.",
-    "keywords": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners",
+    "description": "Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.",
+    "keywords": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates",
     "Audience": {
       "@context": "https://schema.org",
       "type": "audience",
-      "audienceType": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker"
+      "audienceType": "estate management,wills and estates,estate planning,senior citizen,funeral planning,funeral plans,insurance company,insurance broker"
     },
     "publisher": "Comfort Estate Planning",
     "author": {
@@ -103,8 +104,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       "name": "Comfort Estate Planning",
       "legalName": "Mark White Enterprises",
       "alternateName": "Comfort Estates",
-      "url": "http://comfortfuneralplans.co.uk",
-      "logo": "http://comfortfuneralplans.co.uk/img/logo.png",
+      "url": "https://comfortfuneralplans.co.uk",
+      "logo": "https://comfortfuneralplans.co.uk/img/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "15a Kingston Mill",
@@ -123,15 +124,23 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
         "https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
         "https://twitter.com/comfortestateuk",
         "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
-        "https://plus.google.com/104613685056534202018?hl=en-GB"
+        "https://plus.google.com/104613685056534202018?hl=en-GB",
+        "https://www.linkedin.com/company-beta/18120999"
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
-        "telephone": "+44-0800-0987-931",
+        "telephone": "+44-161-282-1930",
         "contactType": "customer service",
         "areaServed": "GB",
         "availableLanguage": "English"
-      }]
+      },{
+        "@type" : "ContactPoint",
+        "telephone" : "+44-800-0987-931",
+        "contactType" : "customer support",
+        "contactOption" : "TollFree",
+        "areaServed" : ["GB"],
+        "availableLanguage" : ["English"]
+      },]
     },
     "creator": [{
       "@context": "https://schema.org",
@@ -220,7 +229,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
               <button type="submit" class="btn btn-lg btn-purple">Enquire now!</button>
               <div class="form-links pull-right">
                 <a href="privacy.html">Privacy</a> -
-                <a href="disclaimer.html">Disclaimer</a>
+                <a href="disclaimer.html">Disclaimer</a> - 
+                <a href="sitemap.html">Sitemap</a>
               </div>
             </form>
           </div>
@@ -274,7 +284,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
             <div class="row">
               <div class="col-xs-8">
                 <h4 itemprop="name">Comfort Estate Planning</h4>
-                <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                   <span itemprop="streetAddress">15a Kingston Mill</span>
                   <br>
                   <span itemprop="addressLocality">Stockport</span>

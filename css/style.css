@@ -108,26 +108,26 @@ section#disclaimer,
     padding-bottom: 50px;
 }
 
-section#sitemap {
+section.sitemap {
     position: relative;
     top: 50px;
 }
 
 section#privacy-policy,
-section#sitemap {
+section.sitemap {
     color: #fff;
 }
 
-section#sitemap a,
-section#sitemap a:link,
-section#sitemap td:hover a {
+section.sitemap a,
+section.sitemap a:link,
+section.sitemap td:hover a {
     color: #8D437E;
     letter-spacing: 2px;
     word-spacing: 2px;
     font-weight: 500;
 }
 
-section#sitemap td:hover a {
+section.sitemap td:hover a {
     font-weight: 700;
     text-decoration: none;
 }
