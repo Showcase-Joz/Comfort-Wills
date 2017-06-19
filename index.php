@@ -120,7 +120,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       },
       "foundingLocation": "address",
       "sameAs": [
-        "https://www.facebook.com/TheFuneralPlanningCompany/"
+        "https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
+        "https://twitter.com/comfortestateuk",
+        "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK"
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
