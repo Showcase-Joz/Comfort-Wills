@@ -122,7 +122,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       "sameAs": [
         "https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
         "https://twitter.com/comfortestateuk",
-        "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK"
+        "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
+        "https://plus.google.com/104613685056534202018?hl=en-GB"
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
@@ -398,11 +399,21 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
         </div>
         <div class="col-xs-12 col-md-5">
           <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
           </a>
+
           <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
           </a>
+
+          <script language="JavaScript" type="text/javascript">
+TrustLogo("https://comfortestateplanning.co.uk/img/site/comodo_secure_seal_76x26_transp.png", "CL1", "none");
+</script>
+          <a title="Secure Website SSL" href="https://ssl.comodo.com" id="comodoTL">Comodo SSL</a>
+          </a>
+
+
+
         </div>
         <div class="col-xs-12 col-md-5">
           <p>Registered in England and Wales, Company Registration No. 09341100</p>
