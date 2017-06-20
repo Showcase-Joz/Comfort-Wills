@@ -464,8 +464,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-  <!-- Pure Chat bot -->
-  <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'b9a062e2-dfc4-433e-9e49-aa8a79ee06ab', f: true }); done = true; } }; })();</script>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="72189a95-d610-4542-9a6a-5e2a13b2a2ad";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <!-- Google Analytics -->
       <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
