@@ -279,7 +279,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <div class="container-fluid">
       <div class="container margin-bottom-20">
         <div class="row text-light">
-          <div class="col-xs-12 col-md-5 col-lg-6">
+          <div class="col-xs-12 col-md-5 col-lg-6 col-lg-offset-0">
             <h3>Contact Comfort Estate Planning</h3>
             <p>We are eager to answer any questions you may have. Your will is essential and important. Our expert Estate Management adviser keen for you to contact us.</p>
             <hr class="hr-half" />
@@ -411,11 +411,11 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
         </div>
         <div class="col-xs-12 col-md-5">
           <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+            <img src="img/site/vcss.gif" alt="Valid CSS!" />
           </a>
 
           <a href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+            <img src="img/site/vcss-blue.gif" alt="Valid CSS!" />
           </a>
 
           <a href="https://ssl.comodo.com/comodo-ssl-certificate.php?track=8172">
