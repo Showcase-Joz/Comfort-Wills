@@ -279,7 +279,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <div class="container-fluid">
       <div class="container margin-bottom-20">
         <div class="row text-light">
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-5 col-lg-6">
             <h3>Contact Comfort Estate Planning</h3>
             <p>We are eager to answer any questions you may have. Your will is essential and important. Our expert Estate Management adviser keen for you to contact us.</p>
             <hr class="hr-half" />
@@ -307,7 +307,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-5 col-md-offset-2 col-lg-6">
             <hr class="hr-half visible-xs-block visible-sm-block">
             <form class="form-horizontal" id="contact_form" method="post" name="contact_form">
               <fieldset>

@@ -151,7 +151,7 @@ a:active {
 }
 
 .full {
-    background: url(../img/1.jpg) no-repeat center center fixed;
+    background: url(../img/comfort-estate-planning-pollinating-bee-background-768.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -579,6 +579,15 @@ fieldset[disabled] .btn-purple.active {
     /*.parallax-vehicle {
     margin-top: 20px;
 }*/
+
+      .full {
+        background: url(../img/comfort-estate-planning-pollinating-bee-background-992.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100vh;
+    }
     .parallax-vehicle .title {
         position: absolute;
         bottom: 0;
@@ -637,6 +646,16 @@ fieldset[disabled] .btn-purple.active {
 }
 
 @media (min-width: 992px) {
+  
+  .full {
+    background: url(../img/comfort-estate-planning-pollinating-bee-background-1200.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
     section.full .text {
         color: #8D437E;
         background-color: rgba(151, 163, 149, 0.7);
@@ -683,6 +702,14 @@ fieldset[disabled] .btn-purple.active {
 }
 
 @media (min-width: 1200px) {
+    .full {
+    background: url(../img/comfort-estate-planning-pollinating-bee-background-1920.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
     .fa-3 {
         float: left;
         margin-left: auto;
