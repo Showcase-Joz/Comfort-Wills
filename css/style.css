@@ -343,6 +343,34 @@ footer a img {
     position: relative;
 }
 
+#markerLayer img[src='./img/touch/icon-128x128.png'] {
+	animation: pulse 1.5s infinite alternate;
+	-webkit-animation: pulse 1.5s infinite alternate;
+	transform-origin: center;
+	-webkit-transform-origin: center;
+}
+
+#map_wrapper h3#firstHeading {
+	color: #fff;
+	background-color: #8cb63c;
+	display: block;
+	padding: 10px;
+	margin: 0;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#map_wrapper div#bodyContent {
+	color: #555;
+}
+
+#bodyContent p {
+	font-size: 14px;
+}
+
+
 .form-top {
     overflow: hidden;
     padding: 0 25px 15px 25px;
