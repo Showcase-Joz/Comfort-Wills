@@ -183,199 +183,46 @@ new WOW({
 })(jQuery);
 
 //Google Maps JS
+//Set Map
+function initialize() {
+    var myLatlng = new google.maps.LatLng(53.408502, -2.1687369999999646);
+    var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png';
+    var mapOptions = {
+        zoom: 10,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    //Callout Content
+    var contentString = '15 Kingston Mill, Chestergate, Stockport SK3 0AL, United Kingdom';
+    //Set window width + content
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        maxWidth: 500
+    });
 
+    //Add Marker
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        icon: imagePath,
+        title: 'Comfort Estate Planning'
+    });
 
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+    });
 
+    //Resize Function
+    google.maps.event.addDomListener(window, "resize", function() {
+        var center = map.getCenter();
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center);
+    });
+}
 
-      function initMap() {
-  
-        // Create a new StyledMapType object, passing it an array of styles,
-        // and the name to be displayed on the map type control.
-        var styledMapType = new google.maps.StyledMapType(
-            [
-              {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
-              {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
-              {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
-              {
-                featureType: 'administrative',
-                elementType: 'geometry.stroke',
-                stylers: [{color: '#c9b2a6'}]
-              },
-              {
-                featureType: 'administrative.land_parcel',
-                elementType: 'geometry.stroke',
-                stylers: [{color: '#dcd2be'}]
-              },
-              {
-                featureType: 'administrative.land_parcel',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#ae9e90'}]
-              },
-              {
-                featureType: 'landscape.natural',
-                elementType: 'geometry',
-                stylers: [{color: '#dfd2ae'}]
-              },
-              {
-                featureType: 'poi',
-                elementType: 'geometry',
-                stylers: [{color: '#CA9EC2'}]
-              },
-              {
-                featureType: 'poi',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#93817c'}]
-              },
-              {
-                featureType: 'poi.park',
-                elementType: 'geometry.fill',
-                stylers: [{color: '#a5b076'}]
-              },
-              {
-                featureType: 'poi.park',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#447530'}]
-              },
-              {
-                featureType: 'road',
-                elementType: 'geometry',
-                stylers: [{color: '#f5f1e6'}]
-              },
-              {
-                featureType: 'road.arterial',
-                elementType: 'geometry',
-                stylers: [{color: '#fdfcf8'}]
-              },
-              {
-                featureType: 'road.highway',
-                elementType: 'geometry',
-                stylers: [{color: '#CA8C1F'}]
-              },
-              {
-                featureType: 'road.highway',
-                elementType: 'geometry.stroke',
-                stylers: [{color: '#e9bc62'}]
-              },
-              {
-                featureType: 'road.highway.controlled_access',
-                elementType: 'geometry',
-                stylers: [{color: '#e98d58'}]
-              },
-              {
-                featureType: 'road.highway.controlled_access',
-                elementType: 'geometry.stroke',
-                stylers: [{color: '#B37DA9'}]
-              },
-              {
-                featureType: 'road.local',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#806b63'}]
-              },
-              {
-                featureType: 'transit.line',
-                elementType: 'geometry',
-                stylers: [{color: '#CA9EC2'}]
-              },
-              {
-                featureType: 'transit.line',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#8f7d77'}]
-              },
-              {
-                featureType: 'transit.line',
-                elementType: 'labels.text.stroke',
-                stylers: [{color: '#ebe3cd'}]
-              },
-              {
-                featureType: 'transit.station',
-                elementType: 'geometry',
-                stylers: [{color: '#CA9EC2'}]
-              },
-              {
-                featureType: 'water',
-                elementType: 'geometry.fill',
-                stylers: [{color: '#b9d3c2'}]
-              },
-              {
-                featureType: 'water',
-                elementType: 'labels.text.fill',
-                stylers: [{color: '#92998d'}]
-              }
-            ],
-            {name: 'Comfort Map'});
-
-        // Create a map object, and include the MapTypeId to add
-        // to the map type control.
-        var uluru = {lat: 53.408502, lng: -2.1687369999999648};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: uluru,
-          zoom: 10,
-          mapTypeControlOptions: {
-            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-                    'styled_map']
-          }
-        });
-        
-        var contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Comfort Estate Planning</h1>'+
-            '<div id="bodyContent">'+
-            '<p><b>Comfort Estate Planning</b>, works with you ensuring your <b>will</b> ' +
-            'and <b>estate</b> are in good order. Our specialists are able to help you '+
-            'alter or confirm your estate arrangements. </p>'+
-            '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-            'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-            '(last visited June 22, 2009).</p>'+
-            '</div>'+
-            '</div>';
-            
-
-            var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-            
-
-        
-        var image = './img/touch/icon-128x128.png';
-
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-          title: 'We are here!',
-            icon: image,
-            optimized: false
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-        
-        
-        // custom overlay for map icon animation
-        var myoverlay = new google.maps.OverlayView();
-        myoverlay.draw = function() {
-            this.getPanes().markerLayer.id = 'markerLayer';
-        };
-        myoverlay.setMap(map);
-
-        //Associate the styled map with the MapTypeId and set it to display.
-        map.mapTypes.set('styled_map', styledMapType);
-        map.setMapTypeId('styled_map');
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
+google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*!

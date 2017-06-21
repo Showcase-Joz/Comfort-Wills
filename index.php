@@ -461,7 +461,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <script src="js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="72189a95-d610-4542-9a6a-5e2a13b2a2ad";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
