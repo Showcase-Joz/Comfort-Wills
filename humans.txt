@@ -33,7 +33,7 @@ Location: Chesterfield, UK.
                             
 /* SITE */
                             
-Last update: 2017/06/20                           
+Last update: 2017/06/22                           
 Standards: HTML5, CSS3,.                           
-Components: Bootstrap, jQuery, WOW, Font Awesome, Animate custom etc.
+Dependencies: Bootstrap, jQuery, WOW, Font Awesome, Animate, google fonts, google maps api, custom etc. 
 Doctype:HTML5
