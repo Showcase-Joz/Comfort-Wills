@@ -56,7 +56,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <link href="css/animate.min.css" rel="stylesheet" />
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" />
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -157,6 +157,15 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 </head>
 
 <body id="home">
+<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">
+        &nbsp;
+      </div>
+    </div><!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
   <!-- Navigation -->
   <nav class="navbar navbar-inverse navbar-fixed-top" id="topNav">
     <div class="container">
@@ -461,9 +470,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <script src="js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
   <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="72189a95-d610-4542-9a6a-5e2a13b2a2ad";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <!-- Google Analytics -->
       <script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
