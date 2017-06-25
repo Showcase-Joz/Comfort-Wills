@@ -35,7 +35,50 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <title>Comfort Estate Planning</title>
   <meta name="description" content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.">
   <meta name="keywords" content="senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates">
-  <meta name="author" content="Comfort Estate Planning">
+  <meta content="en" name="language">
+  <meta content="en_GB" name="og:locale">
+  <meta content="GB-SKP" name="geo.region">
+  <meta content="Stockport" name="geo.placename">
+  <meta content="53.408502; -2.1687369999999648" name="geo.position">
+  <meta content="53.408502, -2.1687369999999648" name="ICBM">
+  <meta content="info@comfortestateplanning.co.uk" name="reply-to">
+  <meta content="Comfort Estate Planning" name="owner">
+  <meta content="Comfort Estate Planning" name="author">
+  <meta content="Joz | Web & Graphic Design Studio" name="designer">
+  <meta content="Comfort Estate Planning" name="copyright">
+  <meta content="index,follow" name="robots">
+  <link href="humans.txt" rel="author">
+  
+  <!--  FACEBOOK OG  ==================================================  -->
+  <meta content="Wills and Estate Planning by Comfort Estate Planning, part of the Comfort Group" property="og:title">
+  <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." property="og:description">
+  <meta content="company" property="og:type">
+  <meta content="https://comfortestateplanning.co.uk/index.php" property="og:url">
+  <meta content="https://comfortestateplanning.co.uk/img/small-still1.jpg" property="og:image">
+  <meta content="Comfort Estate Planning" property="og:site_name">
+  <meta content="100000433067496,771587369" property="fb:admins">
+  <meta content="1832898456987553" property="fb:app_id">
+  
+  <!--  Twitter OG  ==================================================  -->
+  <meta content="player" name="twitter:card">
+  <meta content="@comfortestateuk" name="twitter:site">
+  <meta content="Comfort Estate Planning" name="twitter:title">
+  <meta content="https://www.youtube.com/embed/amsYrZbJgL4" name="twitter:player">
+  <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." name="twitter:description">
+  <meta content="https://comfortestateplanning.co.uk/img/small-still1.jpg" name="twitter:image">
+  <meta content="@mrjozzi" name="twitter:creator">
+  
+  <!--  Google+ OG  ==================================================  -->
+  <meta content="senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates" name="news_keywords">
+  <link href="https://plus.google.com/104613685056534202018" rel="publisher">
+  <link href="https://plus.google.com/+JolyonFavreau" rel="author">
+
+
+
+
+
+
+
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
@@ -126,7 +169,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
         "https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
         "https://twitter.com/comfortestateuk",
         "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
-        "https://plus.google.com/104613685056534202018?hl=en-GB",
+        "https://plus.google.com/104613685056534202018",
         "https://www.linkedin.com/company-beta/18120999"
       ],
       "contactPoint": [{
