@@ -3,22 +3,23 @@
                             
 Company: Comfort Estate Planning
 Sector: Wills & Estate Planning
+Group: Comfort Group
 
 Business Address:
-15a Kingston Mill, 0AL, Chestergate, Stockport SK3 0AL
+15a Kingston Mill, Chestergate, Stockport SK3 0AL
 HQ Stockport  0161 282 1930
 Toll Free  0800 0987 931
 Email: info@http://comfortestateplanning.co.uk
 
-https://www.linkedin.com/company/red-resource-uk
-https://uk.pinterest.com/redresourceuk
-https://www.instagram.com/redresourceuk
-https://www.facebook.com/RedResourceUK
-https://plus.google.com/+Redresourceuk
-https://twitter.com/RedResource
-https://www.youtube.com/c/Redresourceuk
 
-Monday - Friday: 8:30 AM to 6:00 PM
+https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/
+https://twitter.com/comfortestateuk
+https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK
+https://plus.google.com/104613685056534202018
+https://www.linkedin.com/company-beta/18120999
+
+Monday - Thursday: 10:00 AM to 8:00 PM
+Friday: 9:00 AM to 1:00 PM
 
 Owner: Mark White
 Associate: Paul Griffin
@@ -26,14 +27,14 @@ Associate: Paul Griffin
 							
 /* THANKS */							
 
-Design Company: Showcase Imagery.                           
-Contact: info [@] showcaseimagery.com                            
-Twitter: @showcaseimagery                       
+Design Company: Internal.                           
+Contact: joz [@] showcaseimagery.com                            
+Twitter: @mrjozzi                       
 Location: Chesterfield, UK.
                             
 /* SITE */
                             
-Last update: 2017/06/22                           
+Last update: 2017/06/27                           
 Standards: HTML5, CSS3,.                           
 Dependencies: Bootstrap, jQuery, WOW, Font Awesome, Animate, google fonts, google maps api, custom etc. 
 Doctype:HTML5
