@@ -272,7 +272,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav pull-right">
-          <li><a href="tel:+448000987931">0800 0987 931</a></li>
+          <li><a href="tel:+448000987841">0800 0987 841</a></li>
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#about">Why do I need a Will?</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -403,7 +403,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
             </div>
             <div class="row">
               <div class="contact-methods">
-                <span itemprop="telephone"><a class="tel-no btn btn-orange  col-xs-6 col-md-4" href="tel:+448000987931"><i class="fa fa-phone text-dark" aria-hidden="true"></i> 0800 0987 931 </a></span>
+                <span itemprop="telephone"><a class="tel-no btn btn-orange  col-xs-6 col-md-4" href="tel:+448000987841"><i class="fa fa-phone text-dark" aria-hidden="true"></i> 0800 0987 841 </a></span>
                 <span itemprop="email"><a class="email btn btn-orange col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-3" href="mailto:info@comfortfuneralplans.co.uk"><i class="fa fa-envelope text-dark" aria-hidden="true"></i> email us</a></span>
               </div>
             </div>
