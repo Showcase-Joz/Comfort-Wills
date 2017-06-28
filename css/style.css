@@ -180,7 +180,7 @@ section.full .text {
 
 section.full .text .text-inner {
     background: #fff;
-    opacity: .7;
+    opacity: .8;
     padding: 20px;
     margin: 20px 0
 }
@@ -661,7 +661,7 @@ fieldset[disabled] .btn-purple.active {
     }
     section.full .text {
         color: #8d437e;
-        background-color: rgba(151, 163, 149, 0.7);
+        background-color: rgba(202, 140, 31, 0.8);
         padding: 20px;
         font-size: 18px;
         border-top-right-radius: 50px
@@ -718,3 +718,5 @@ fieldset[disabled] .btn-purple.active {
         margin-left: auto
     }
 }
+
+P
