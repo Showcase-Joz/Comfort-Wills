@@ -1,0 +1,122 @@
+.header .wrapper-inner {
+    padding: 20px;
+    background-color: #ffe985;
+}
+
+p.header-title.text-right {
+    color: #8065B2;
+    text-transform: uppercase;
+}
+
+a.text-purple,.text-purple {
+    color: #8065B2;
+}
+
+a.text-purple:hover,.text-purple:hover {
+    color: #5C438D;
+}
+
+a.text-yellow,.text-yellow {
+    color: #FFE985;
+}
+
+a.text-hover-yellow:hover,.text-hover-yellow:hover {
+    color: #CFB956;
+}
+
+th.callout-inner.primary {
+    background: #8065B2;
+    border: 1px solid #444444;
+    width: initial;;
+}
+
+th.callout-inner.primary p {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.larger-text {
+    font-size: 18px;
+    line-height: 1.4;
+}
+.text-center {
+    text-align: center;
+}
+.smaller {
+    font-size: 50%;
+    color: #cacaca;
+    position: relative;
+    bottom: -15px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.bktr {
+    background-color: rgba(128, 101, 178, 0.35);
+}
+
+td.wrapper {
+    padding: 10px 20px 0 0;
+    position: relative;
+}
+
+.panel {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    padding: 10px!important;
+}
+
+table.plan-details td {
+    background-color: rgba(128, 101, 178, 0.4);
+    color: #ffffff;
+    padding: 10px 5px;
+}
+
+table.button {
+    margin: inherit;
+}
+
+table.button.secondary table td {
+    background: #FFE985;
+    color: #777777;
+    border: 0px solid #FFE985;
+}
+
+table.button.secondary table a {
+    color: #777777;
+    border: 0 solid #FFE985;
+}
+
+table.button.secondary:hover table td {
+    background: #CFB956;
+    color: #777777;
+}
+
+table.button.secondary:hover table a {
+    border: 0 solid #CFB956;
+}
+
+table.button.secondary:hover table td a {
+    color: #777777;
+}
+
+table.button.secondary:active table td a {
+    color: #777777;
+}
+
+table.button.secondary table td a:visited {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    table[class="body"] .row tr,
+    table[class="body"] .row tbody {
+        display: grid;
+    }
+    .bktr {
+        padding: 10px;
+    }
+}
