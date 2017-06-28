@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /.git/
 Disallow: /fact-find/
+Disallow: /contact-form/
 Disallow: /test/
 Disallow: comfort-estates.sublime-project
 Disallow: comfort-estates.sublime-workspace

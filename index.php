@@ -107,128 +107,93 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <![endif]-->
   <script type="application/ld+json">
    {
-	"@context": "https://schema.org",
-	"@type": "WebPage",
-	"url": "https://www.comfortestateplanning.co.uk",
-	"name": "Comfort Estate Planning - The best prepaid funeral plans",
-	"description": "Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.",
-	"keywords": "senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates",
-	"image": "https://comfortestateplanning.co.uk/img/will-signing.jpg",
-	"breadcrumb": {
-		"@type": "BreadcrumbList",
-		"itemListElement": [
-			{
-				"@type": "ListItem",
-				"position": "1",
-				"item": {
-					"@type": "WebSite",
-					"@id": "https://comfortestateplanning.co.uk",
-					"name": "Home"
-				}
-			},
-			{
-				"@type": "ListItem",
-				"position": "2",
-				"item": {
-					"@type": "WebPage",
-					"@id": "https://comfortestateplanning.co.uk/disclaimer.html",
-					"name": "Disclaimer"
-				}
-			}
-		]
-	},
-	"mainEntity": {
-		"@type": "QAPage",
-		"@id": "https://comfortestateplanning.co.uk/disclaimer.html",
-		"mainEntityOfPage": "https://comfortestateplanning.co.uk",
-		"headline": "Comfort Estate Planning Website Disclaimer",
-		"image": {
-			"@type": "imageObject",
-			"url": "http://example.com/image.png",
-			"height": "500",
-			"width": "300"
-		},
-		"publisher": {
-			"@type": "Organization",
-			"name": "Your Name",
-			"logo": {
-				"@type": "imageObject",
-				"url": "http://example.com/logo.png"
-			}
-		}
-	},
-	"Audience": {
-		"@context": "https://schema.org",
-		"@type": "Audience",
-		"audienceType": "estate management,wills and estates,estate planning,senior citizen,funeral planning,funeral plans,insurance company,insurance broker"
-	},
-	"author": {
-		"@context": "https://schema.org",
-		"@type": "Organization",
-		"name": "Comfort Estate Planning",
-		"legalName": "Comfort Group",
-		"url": "https://search.google.com/structured-data/testing-tool/",
-		"logo": "https://comfortestateplanning.co.uk/img/logo.png",
-		"email": "info@comfortestateplanning.co.uk",
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "15a Kingston Mill",
-			"addressLocality": "Stockport",
-			"addressRegion": "Greater Manchester",
-			"postalCode": "SK3 0AL",
-			"addressCountry": "United Kingdom"
-		},
-		"parentOrganization": {
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Comfort Group",
-			"alternateName": "Comfort Estate Planning"
-		},
-		"foundingDate": "2014",
-		"founder": {
-			"@type": "Person",
-			"name": "Mark White"
-		},
-		"foundingLocation": {
-			"@type": "place",
-			"address": {
-				"streetAddress": "15 Kingston Mill",
-				"addressLocality": "Stockport",
-				"addressRegion": "Greater Manchester",
-				"postalCode": "SK3 0AL",
-				"addressCountry": "United Kingdom"
-			}
-		},
-		"sameAs": [
-			"https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
-			"https://twitter.com/comfortestateuk",
-			"https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
-			"https://plus.google.com/104613685056534202018?hl=en-GB",
-			"https://www.linkedin.com/company-beta/18120999"
-		],
-		"contactPoint": [
-			{
-				"@type": "ContactPoint",
-				"telephone": "+44-161-282-1930",
-				"contactType": "customer service",
-				"areaServed": "GB",
-				"availableLanguage": "English"
-			},
-			{
-				"@type": "ContactPoint",
-				"telephone": "+44-800-0987-841",
-				"contactType": "customer support",
-				"contactOption": "TollFree",
-				"areaServed": [
-					"GB"
-				],
-				"availableLanguage": [
-					"English"
-				]
-			}
-		]
-	},
-    "creator": [{
+  "@context": "https://schema.org",
+  "@type": "website",
+  "url": "https://www.comfortestateplanning.co.uk",
+  "name": "Comfort Estate Planning",
+  "description": "Professional advice and services for your wills and estate management. Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.",
+  "keywords": "senior citizen,funeral planning, will arrangements,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate management, wills and estates",
+  "image": "https://comfortestateplanning.co.uk/img/will-signing.jpg",
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": "https://comfortestateplanning.co.uk/index.php",
+    "mainEntityOfPage": "https://comfortestateplanning.co.uk",
+    "headline": "Comfort Wills and Estate Planning",
+    "about": "Professional advice and services for your wills and estate management."
+  },
+  "Audience": {
+    "@context": "https://schema.org",
+    "@type": "Audience",
+    "audienceType": "estate management,wills and estates,estate planning,senior citizen,funeral planning,funeral plans,insurance company,insurance broker"
+  },
+  "author": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Comfort Estate Planning",
+    "legalName": "Comfort Group",
+    "url": "https://comfortestateplanning.co.uk",
+    "logo": "https://comfortestateplanning.co.uk/img/logo.png",
+    "email": "info@comfortestateplanning.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "15a Kingston Mill",
+      "addressLocality": "Stockport",
+      "addressRegion": "Greater Manchester",
+      "postalCode": "SK3 0AL",
+      "addressCountry": "United Kingdom"
+    },
+    "parentOrganization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Comfort Group",
+      "alternateName": "Comfort Estate Planning"
+    },
+    "foundingDate": "2014",
+    "founder": {
+      "@type": "Person",
+      "name": "Mark White"
+    },
+    "foundingLocation": {
+      "@type": "place",
+      "address": {
+        "streetAddress": "15 Kingston Mill",
+        "addressLocality": "Stockport",
+        "addressRegion": "Greater Manchester",
+        "postalCode": "SK3 0AL",
+        "addressCountry": "United Kingdom"
+      }
+    },
+    "sameAs": [
+      "https://www.facebook.com/Comfort-Estate-Planning-1894823347456943/",
+      "https://twitter.com/comfortestateuk",
+      "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
+      "https://plus.google.com/104613685056534202018?hl=en-GB",
+      "https://www.linkedin.com/company-beta/18120999"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+44-161-282-1930",
+        "contactType": "customer service",
+        "areaServed": "GB",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+44-800-0987-841",
+        "contactType": "customer support",
+        "contactOption": "TollFree",
+        "areaServed": [
+          "GB"
+        ],
+        "availableLanguage": [
+          "English"
+        ]
+      }
+    ]
+  },
+  "creator": [
+    {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Joz Favreau",
@@ -236,15 +201,17 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       "jobTitle": "Web Manager and Designer",
       "url": "https://www.linkedin.com/in/showcasejoz/",
       "worksFor": "Comfort Group"
-    }, {
+    },
+    {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "James E Russell",
       "alternateName": "James",
       "jobTitle": "Web Developer",
       "worksFor": "Comfort Group"
-    }]
-  }
+    }
+  ]
+}
   </script>
 </head>
 
