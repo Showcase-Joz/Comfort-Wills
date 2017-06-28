@@ -1,4 +1,4 @@
-#preloader {
+    #preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -648,75 +648,71 @@ fieldset[disabled] .btn-purple.active {
     section#contact {
         padding: inherit
     }
-}
-
-@media(min-width:992px) {
-    .full {
-        background: url(../img/comfort-estate-planning-pollinating-bee-background-1200.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        min-height: 100vh
+    @media(min-width:992px) {
+        .full {
+            background: url(../img/comfort-estate-planning-pollinating-bee-background-1200.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh
+        }
+        section.full .text {
+            color: #8d437e;
+            background-color: rgba(202, 140, 31, 0.8);
+            padding: 20px;
+            font-size: 18px;
+            border-top-right-radius: 50px
+        }
+        section.full .text .text-inner {
+            background: #fff;
+            opacity: .8;
+            padding: 20px;
+            margin: 20px 0;
+            border-top-right-radius: 100px
+        }
+        section.full .text:hover .text-inner {
+            opacity: 1
+        }
+        .form-top {
+            border-top-left-radius: 50px
+        }
+        .side-img {
+            display: block;
+            overflow-x: hidden;
+            padding: 0;
+            position: absolute;
+            right: 0
+        }
+        .side-img img {
+            max-height: 100vh;
+            height: 100%
+        }
+        .fa-3 {
+            margin-left: -20px;
+            float: left
+        }
+        footer .container .footer [class*='col-md-']:first-child {
+            text-align: left;
+            padding: 0
+        }
+        footer .container .footer [class*='col-md-']:last-child {
+            text-align: right;
+            padding: 0
+        }
     }
-    section.full .text {
-        color: #8d437e;
-        background-color: rgba(202, 140, 31, 0.8);
-        padding: 20px;
-        font-size: 18px;
-        border-top-right-radius: 50px
+    @media(min-width:1200px) {
+        .full {
+            background: url(../img/comfort-estate-planning-pollinating-bee-background-1920.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 100vh
+        }
+        .fa-3 {
+            float: left;
+            margin-left: auto
+        }
     }
-    section.full .text .text-inner {
-        background: #fff;
-        opacity: .7;
-        padding: 20px;
-        margin: 20px 0;
-        border-top-right-radius: 100px
-    }
-    section.full .text:hover .text-inner {
-        opacity: 1
-    }
-    .form-top {
-        border-top-left-radius: 50px
-    }
-    .side-img {
-        display: block;
-        overflow-x: hidden;
-        padding: 0;
-        position: absolute;
-        right: 0
-    }
-    .side-img img {
-        max-height: 100vh;
-        height: 100%
-    }
-    .fa-3 {
-        margin-left: -20px;
-        float: left
-    }
-    footer .container .footer [class*='col-md-']:first-child {
-        text-align: left;
-        padding: 0
-    }
-    footer .container .footer [class*='col-md-']:last-child {
-        text-align: right;
-        padding: 0
-    }
-}
-
-@media(min-width:1200px) {
-    .full {
-        background: url(../img/comfort-estate-planning-pollinating-bee-background-1920.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        min-height: 100vh
-    }
-    .fa-3 {
-        float: left;
-        margin-left: auto
-    }
-}
-
-P
+    P
