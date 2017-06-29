@@ -1,3 +1,9 @@
+.body,center > .menu{
+    background: #ffe985 !important;
+}
+center > .menu {
+    width: 100%;
+}
 .header .wrapper-inner {
     padding: 20px;
     background-color: #ffe985;
@@ -8,11 +14,11 @@ p.header-title.text-right {
     text-transform: uppercase;
 }
 
-a.text-purple,.text-purple {
+a.text-purple,.text-purple,table.menu td.menu-item a, table.menu th.menu-item a {
     color: #8065B2;
 }
 
-a.text-purple:hover,.text-purple:hover {
+a.text-purple:hover,table.menu td.menu-item a:hover, table.menu th.menu-item a:hover {
     color: #5C438D;
 }
 
@@ -35,7 +41,10 @@ th.callout-inner.primary p {
     text-align: justify;
     font-size: 14px;
 }
-
+.rounded {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 5px;
+}
 .larger-text {
     font-size: 18px;
     line-height: 1.4;
@@ -43,15 +52,23 @@ th.callout-inner.primary p {
 .text-center {
     text-align: center;
 }
-.smaller {
-    font-size: 50%;
-    color: #cacaca;
-    position: relative;
-    bottom: -15px;
+.text-justify {
+    text-align: justify;
 }
-
+.text-justify-rend {
+    text-align-last: right;
+}
+small {
+    color: #777777;
+}
+.legal {
+    font-size: 10px;
+}
 .pull-right {
     float: right;
+}
+.pull-left {
+    float: left;
 }
 
 .bktr {
@@ -109,6 +126,37 @@ table.button.secondary:active table td a {
 
 table.button.secondary table td a:visited {
     color: #ffffff;
+}
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-5px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
 }
 
 @media only screen and (max-width: 600px) {
