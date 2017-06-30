@@ -253,7 +253,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       <div class="row">
         <div class="col-xs-12 col-md-6 text wow fadeInLeft">
           <div class="text-inner">
-            <h1>We can write your will for only <strong>£199</strong></h1>
+            <h1>Comfort Estate Planning can write your will, only <strong>£199</strong></h1>
             <div class="description wow flipInX">
               <p>
                 Secure your family assets with our fantastic <strong>Will Writing</strong> service. Complete this simple form and one of our experts will contact you.
@@ -303,6 +303,20 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                 <a href="sitemap.html">Sitemap</a>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 text wow fadeInLeft" data-wow-delay="1500">
+          <div class="text-inner-notice">
+            <p>You have come to the right place for help! Your family's plans estate managing. Managing your inheritance TAX concerns. And giving you the information that will strengthen your trust.</p>
+            <div class="top-big-link wow fadeInUp">
+              <span class="label label-primary">Primary</span>
+              <span class="label label-primary">Primary</span>
+              <span class="label label-primary">Primary</span>
+              <span class="label label-primary">Primary</span>
+              <span class="label label-primary">Primary</span>
+            </div>
           </div>
         </div>
       </div>

@@ -171,7 +171,7 @@
                         padding-right: 50px
                     }
                     
-                    section.full>.container>.row {
+                    section.full>.container>.row:first-child {
                         margin-top: 10%
                     }
                     
@@ -192,7 +192,10 @@
                     section.full .text:hover .text-inner {
                         opacity: 1
                     }
-                    
+                    section.full .text .text-inner-notice {
+                                background: #fff;
+                                padding: 20px;
+                            }
                     section#contact {
                         padding: 20px
                     }
@@ -670,6 +673,12 @@
                                 font-size: 18px;
                                 border-top-right-radius: 50px
                             }
+                            section.full .text2 {
+                                color: #8d437e;
+                                padding: 20px;
+                                font-size: 18px;
+                                border-top-right-radius: 0;
+                            }
                             section.full .text .text-inner {
                                 background: #fff;
                                 opacity: .8;
@@ -677,6 +686,7 @@
                                 margin: 20px 0;
                                 border-top-right-radius: 100px
                             }
+                            
                             section.full .text:hover .text-inner {
                                 opacity: 1
                             }
