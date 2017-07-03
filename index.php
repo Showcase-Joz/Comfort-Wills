@@ -25,7 +25,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 }
 ?>
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="https://schema.org/Organization">
+<html dir="ltr" lang="en" itemscope itemtype="https://schema.org/Organization">
 
 <head>
   <meta charset="utf-8">
@@ -77,7 +77,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 
 
 
-
+  <link rel="alternate" href="https://comfortestateplanning.co.uk/" hreflang="x-default" />
 
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
