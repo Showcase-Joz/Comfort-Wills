@@ -74,10 +74,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="https://plus.google.com/+JolyonFavreau" rel="author">
 
 
-
-
-
-  <link rel="alternate" href="https://comfortestateplanning.co.uk/" hreflang="x-default" />
+  <link rel="canonical" href="https://comfortestateplanning.co.uk/" />
+  <link rel="alternate" href="https://comfortestateplanning.co.uk/index.php" hreflang="en-gb" />
 
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -168,7 +166,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
       "https://twitter.com/comfortestateuk",
       "https://www.google.co.uk/maps/place/Comfort+Estate+Planning/@53.4085829,-2.1692407,15z/data=!4m2!3m1!1s0x0:0xc4b567e3fff771fe?sa=X&ved=0ahUKEwiv4aH1g8rUAhWJBsAKHcH4DgUQ_BIIfjAK",
       "https://plus.google.com/104613685056534202018?hl=en-GB",
-      "https://www.linkedin.com/company-beta/18120999"
+      "https://uk.linkedin.com/company/comfort-estate-planning"
     ],
     "contactPoint": [
       {

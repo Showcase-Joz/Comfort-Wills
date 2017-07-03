@@ -153,6 +153,10 @@
                             width: 50%;
                             margin: 50px auto
                         }
+                        .hr-light {
+                            background-color: #999;
+                        }
+                        
                         
                         .full {
                             background: url(../img/comfort-estate-planning-pollinating-bee-background-768.jpg) no-repeat center center fixed;
