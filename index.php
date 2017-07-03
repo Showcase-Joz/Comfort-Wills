@@ -74,8 +74,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="https://plus.google.com/+JolyonFavreau" rel="author">
 
 
-  <link rel="canonical" href="https://comfortestateplanning.co.uk/" />
+  <link rel="alternate" href="https://comfortestateplanning.co.uk/"  hreflang="en" />
   <link rel="alternate" href="https://comfortestateplanning.co.uk/index.php" hreflang="en-gb" />
+
 
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
