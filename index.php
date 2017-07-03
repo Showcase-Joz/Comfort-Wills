@@ -284,8 +284,13 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                         <span class="label label-primary">Trust Planning</span>
                                         <span class="label label-primary">Inheritance TAX</span>
                                         <span class="label label-primary">Trusts &amp; Estate Trusts</span>
+                                        <span class="label label-primary">Plan Trust</span>
+                                        <span class="label label-primary">Legal Advice</span>
+                                        <span class="label label-primary">Assets Estate</span>
                                         <span class="label label-primary">Estate Taxes</span>
                                         <span class="label label-primary">Care Fee's</span>
+                                        <span class="label label-primary">Estate attorney</span>
+                                        <span class="label label-primary">Funeral Plan</span>
                                     </h4>
                                 </div>
                             </div>
