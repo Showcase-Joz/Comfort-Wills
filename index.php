@@ -280,7 +280,6 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                 <div class="">
                                     <p>You have come to the right place for help! Your family's plans estate managing. Managing your inheritance TAX concerns. And giving you the information that will strengthen your trust.</p>
                                     <h4 class="labelled wow fadeInUp">
-                                        <span class="label label-primary">Estate Planning</span>
                                         <span class="label label-primary">Trust Planning</span>
                                         <span class="label label-primary">Inheritance TAX</span>
                                         <span class="label label-primary">Trusts &amp; Estate Trusts</span>
