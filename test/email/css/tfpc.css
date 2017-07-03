@@ -1,8 +1,19 @@
-.body,center > .menu{
+.body, center {
     background: #ffe985 !important;
 }
-center > .menu {
+center {
     width: 100%;
+    min-width: 580px;
+    background: #ffe985 !important;
+}
+.button center {
+    background: inherit !important;
+}
+table.menu.float-center {
+    width: 100% !important;
+    background: #ffe985 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .header .wrapper-inner {
     padding: 20px;
