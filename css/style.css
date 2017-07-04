@@ -118,7 +118,9 @@ section#disclaimer {
     top: 50px;
     padding-bottom: 50px
 }
-
+section.sitemap td a,section.sitemap a:not(.btn) {
+    color: #8d437e;
+}
 section.sitemap a:not(.btn), section.sitemap td:hover a {
     letter-spacing: 2px;
     word-spacing: 2px;
