@@ -120,7 +120,6 @@ section#disclaimer {
 }
 
 section.sitemap a:not(.btn), section.sitemap td:hover a {
-    color: #8d437e;
     letter-spacing: 2px;
     word-spacing: 2px;
     font-weight: 500
