@@ -1,29 +1,3 @@
-<?php
-if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
-{
-  
-  $to = 'admin@thefuneralplanningcompany.co.uk';
-  
-  $subject = 'Contact Form';
-  
-  $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
-  $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
-  $headers .= "MIME-Version: 1.0\r\n";
-  $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-  
-  
-  $message .= '<p><strong>'.strip_tags($_POST['first_name']).' '.strip_tags($_POST['last_name']).' made an enquiry the contact number is '.strip_tags($_POST['phone']).'</strong></p>';
-  $message .= '<p><strong>'.strip_tags($_POST['comment']).'</strong></p>';
-  
-  
-  mail($to, $subject, $message, $headers);
-  $_POST["email"]="";
-  $_POST["first_name"]="";
-  $_POST["last_name"]="";
-  $_POST["phone"]="";
-  $_POST["comment"]=""; 
-}
-?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en" itemscope itemtype="https://schema.org/Organization">
 
@@ -53,7 +27,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <meta content="Wills and Estate Planning by Comfort Estate Planning, part of the Comfort Group" property="og:title">
   <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." property="og:description">
   <meta content="company" property="og:type">
-  <meta content="https://comfortestateplanning.co.uk/index.php" property="og:url">
+  <meta content="https://comfortestateplanning.co.uk/index.html" property="og:url">
   <meta content="https://comfortestateplanning.co.uk/img/small-still1.jpg" property="og:image">
   <meta content="Comfort Estate Planning" property="og:site_name">
   <meta content="100000433067496,771587369" property="fb:admins">
@@ -75,7 +49,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 
 
   <link rel="alternate" href="https://comfortestateplanning.co.uk/"  hreflang="en" />
-  <link rel="alternate" href="https://comfortestateplanning.co.uk/index.php" hreflang="en-gb" />
+  <link rel="alternate" href="https://comfortestateplanning.co.uk/index.html" hreflang="en-gb" />
 
 
   <link rel="icon" href="favicon.ico">
@@ -115,7 +89,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   "image": "https://comfortestateplanning.co.uk/img/will-signing.jpg",
   "mainEntity": {
     "@type": "WebPage",
-    "@id": "https://comfortestateplanning.co.uk/index.php",
+    "@id": "https://comfortestateplanning.co.uk/index.html",
     "mainEntityOfPage": "https://comfortestateplanning.co.uk",
     "headline": "Comfort Wills and Estate Planning",
     "about": "Professional advice and services for your wills and estate management."
@@ -347,7 +321,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                 <div class="row text-light">
                     <div class="col-xs-12 col-md-8 margin-bottom-20">
                         <h2 class="wow fadeIn" data-wow-offset="200">Do I need a will?</h2>
-                        <p class="wow fadeIn" data-wow-offset="200">As a resident of England or Wales. If you die without a will, the law will decide who gets your estate. So if you don’t have any living relatives. All of your possessions and any property you own will do to the crown.</p>
+                        <p class="wow fadeIn" data-wow-offset="200">As a resident of England or Wales. If you die without a will, the law will decide who gets your estate. So if you don’t have any living relatives. All of your possessions and any property you own will to the crown.</p>
                         <hr class="wow fadeIn" data-wow-offset="200">
                         <h2 class="wow fadeIn" data-wow-offset="200">What should I consider?</h2>
                         <p class="wow fadeIn" data-wow-offset="200">We all want the best for our children and dependants. So it’s important to protect them in your will. Decide who should have control of your estate on your passing. And save your family additional grief.</p>
@@ -420,7 +394,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                             <div class="inputGroupContainer">
                                                 <div class="input-group">
                                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                    <input class="form-control" name="first_name" placeholder="First Name" type="text" value="<?php echo $_POST[" first_name "] ?>">
+                                                    <input class="form-control" name="first_name" placeholder="First Name" type="text" value="">
                                                 </div>
                                             </div>
                                         </div>
@@ -432,7 +406,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                             <div class="inputGroupContainer">
                                                 <div class="input-group">
                                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                    <input class="form-control" name="last_name" placeholder="Last Name" type="text" value="<?php echo $_POST[" last_name "] ?>">
+                                                    <input class="form-control" name="last_name" placeholder="Last Name" type="text" value="">
                                                 </div>
                                             </div>
                                         </div>
@@ -444,7 +418,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                     <div class="inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-at"></i></span>
-                                            <input aria-describedby="inputemailStatus" class="form-control" id="inputemail" name="email" placeholder="j.smith@hotmail.com" type="text" value=" <?php echo $_POST[" email "] ?>">
+                                            <input aria-describedby="inputemailStatus" class="form-control" id="inputemail" name="email" placeholder="j.smith@hotmail.com" type="text" value="">
                                         </div>
                                     </div><span aria-hidden="true" class="fa fa-ok form-control-feedback"></span> <span class="sr-only" id="inputemailStatus">(success)</span>
                                 </div>
@@ -454,7 +428,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                     <div class="inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                            <input class="form-control" name="phone" placeholder="0161 282 1930" type="text" value="<?php echo $_POST[" phone "] ?>">
+                                            <input class="form-control" name="phone" placeholder="0161 282 1930" type="text" value="">
                                         </div>
                                     </div>
                                 </div>
@@ -464,7 +438,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                     <div class="inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-terminal"></i></span>
-                                            <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" value=" <?php echo $_POST[" comment "] ?>"></textarea>
+                                            <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" value=""></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -586,10 +560,10 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
         var galite = galite || {};
         galite.UA = 'UA-101050490-1';
     </script>
-    <?php if ( $_SERVER[ 'REQUEST_METHOD']=='POST' ) { echo "<script type='text/javascript'>
+<!--     <script type='text/javascript'>
       $(document).ready(function(){
       $('#success').modal('show');
       });
-      </script>"; } ?>
+      </script> -->
 </body>
 </html>

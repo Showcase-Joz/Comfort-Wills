@@ -347,7 +347,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                 <div class="row text-light">
                     <div class="col-xs-12 col-md-8 margin-bottom-20">
                         <h2 class="wow fadeIn" data-wow-offset="200">Do I need a will?</h2>
-                        <p class="wow fadeIn" data-wow-offset="200">As a resident of England or Wales. If you die without a will, the law will decide who gets your estate. So if you don’t have any living relatives. All of your possessions and any property you own will do to the crown.</p>
+                        <p class="wow fadeIn" data-wow-offset="200">As a resident of England or Wales. If you die without a will, the law will decide who gets your estate. So if you don’t have any living relatives. All of your possessions and any property you own will to the crown.</p>
                         <hr class="wow fadeIn" data-wow-offset="200">
                         <h2 class="wow fadeIn" data-wow-offset="200">What should I consider?</h2>
                         <p class="wow fadeIn" data-wow-offset="200">We all want the best for our children and dependants. So it’s important to protect them in your will. Decide who should have control of your estate on your passing. And save your family additional grief.</p>
