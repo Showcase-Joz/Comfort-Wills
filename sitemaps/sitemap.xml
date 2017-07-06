@@ -4,27 +4,37 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>https://comfortestateplanning.co.uk/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://comfortestateplanning.co.uk/privacy.html</loc>
-  <lastmod>2017-06-16T11:36:49+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://comfortestateplanning.co.uk/disclaimer.html</loc>
-  <lastmod>2017-06-16T11:36:48+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://comfortestateplanning.co.uk/sitemap.html</loc>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://comfortestateplanning.co.uk/index.php</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://comfortestateplanning.co.uk/downloads/benefits-of-a-will-download.pdf</loc>
+  <lastmod>2017-06-20T12:15:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 </urlset>

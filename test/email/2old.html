@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="https://comfortestateplanning.co.uk/test/email/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="https://comfortestateplanning.co.uk/test/email/css/tfpc.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width">
-  <title>Greetings and Thank you {FirstName:value}</title>
+  <meta name="viewport" content="width=device-width" />
+  <title>Greetings and Thank you *|FNAME|*</title>
   <!-- <style> -->
 </head>
 
@@ -17,7 +17,7 @@
   <table class="body">
     <tr>
       <td class="center" align="center" valign="top">
-        <center data-parsed="">
+        <center>
           <table align="center" class="wrapper header float-center">
             <tr>
               <td class="wrapper-inner">
@@ -32,7 +32,7 @@
                                 <table>
                                   <tr>
                                     <th>
-                                      <img src="http://placehold.it/200x50/8065B2/ffffff/?text=logo+here">
+                                      <img src="http://placehold.it/200x50/8065B2/ffffff/?text=logo+here" alt="The Funeral Planning Company logo" />
                                     </th>
                                   </tr>
                                 </table>
@@ -41,7 +41,7 @@
                                 <table>
                                   <tr>
                                     <th>
-                                      <p class="header-title text-right">Welcome {FirstName:value}</p>
+                                      <p class="header-title text-right">Welcome *|FNAME|*</p>
                                     </th>
                                   </tr>
                                 </table>
@@ -74,10 +74,10 @@
                           <table>
                             <tr>
                               <th>
-                                <h1>Greetings {FirstName:value}</h1>
-                                <p class="lead">Congratulations on completing your Pride Planning funeral plan which has now been finalised.</p>
+                                <h1>Greetings *|FNAME|*</h1>
+                                <p class="lead">Congratulations on completing your *|MMERGE8|* funeral plan which has now been finalised.</p>
                                 <p>Look out for your welcome pack its in the post, it will be with you soon. For your added comfort a member of our welcome team will contact you within the week to confirm everything is correct and will answer any further questions you may have.</p>
-                                <img src="https://comfortestateplanning.co.uk/test/email/img/contact-teddy.jpg" alt="">
+                                <img src="https://comfortestateplanning.co.uk/test/email/img/contact-teddy.jpg" alt="" />
                                 <table class="callout">
                                   <tr>
                                     <th class="callout-inner primary">
@@ -85,12 +85,12 @@
 " href="https://search.google.com/local/writereview?placeid=ChIJYzhvynCze0gR1Kore9CAisg
 ">Leave your review</a> | <small><a class="text-yellow text-hover-yellow
 " href="#not-happy
-">Not 100% happy?</a><small></span></p>
+">Not 100% happy?</a></small></span></p>
                                     </th>
                                     <th class="expander"></th>
                                   </tr>
                                 </table>
-                                <p class="larger-text">In the meantime {ClientTitle:text} {LastName:value}, please find a brief overview of your chosen plan. Which we will confirm through the post in a few days time.</p>
+                                <p class="larger-text">In the meantime *|MMERGE3|* *|LNAME|*, please find a brief overview of your chosen plan. Which we will confirm through the post in a few days time.</p>
                                 <table class="spacer">
                                   <tbody>
                                     <tr>
@@ -114,7 +114,7 @@
                                                   <table class="row">
                                                     <tbody>
                                                       <tr>
-                                                        <span class="pull-right"><em>Details about your package</em></span>
+                                                        <th colspan="4"><span class="pull-right"><em>Details about your package</em></span></th>
                                                       </tr>
                                                       <tr>
                                                         <td class="wrapper">
@@ -128,7 +128,7 @@
                                                               </tr>
                                                               <tr class="bktr">
                                                                 <td>
-                                                                  <span>[planName]</span>
+                                                                  <span>*|MMERGE8|*</span>
                                                                 </td>
                                                                 <td class="expander"></td>
                                                               </tr>
@@ -146,7 +146,7 @@
                                                               </tr>
                                                               <tr class="bktr">
                                                                 <td>
-                                                                  <span>£[depositAmount]</span>
+                                                                  <span>£ *|MMERGE4|*</span>
                                                                 </td>
                                                                 <td class="expander"></td>
                                                               </tr>
@@ -164,7 +164,7 @@
                                                               </tr>
                                                               <tr class="bktr">
                                                                 <td>
-                                                                  <span>[term]</span>
+                                                                  <span>*|MMERGE5|*</span>
                                                                 </td>
                                                                 <td class="expander"></td>
                                                               </tr>
@@ -182,7 +182,7 @@
                                                               </tr>
                                                               <tr class="bktr">
                                                                 <td>
-                                                                  <span>£[monthlyPayment]</span>
+                                                                  <span>£ *|MMERGE6|*</span>
                                                                 </td>
                                                                 <td class="expander"></td>
                                                               </tr>
@@ -207,7 +207,7 @@
                                     </tr>
                                   </tbody>
                                 </table>
-                                <hr>
+                                <hr />
                                 <table class="spacer">
                                   <tbody>
                                     <tr>
@@ -215,9 +215,9 @@
                                     </tr>
                                   </tbody>
                                 </table>
-                                <p>{FirstName:value}, now your loved ones need not worry about your funeral wishes. 
+                                <p>*|FNAME|*, now your loved ones need not worry about your funeral wishes. 
                                 </p>
-                                <br>
+                                <br />
                                 <p>Your purchase will become the most important document you owned during your life. Easing the financial and emotional burden at your time of passing, for those you have chose to protect.</p>
                                 <table class="spacer">
                                   <tbody>
@@ -226,15 +226,15 @@
                                     </tr>
                                   </tbody>
                                 </table>
-                                <h5>{cmbAgentName:text}</h5>
+                                <h5>*|MMERGE7|*</h5>
                                 <p>The Funeral Planning Company</p>
-                                <small><em>The UK's largest funeral planning broker</small>
+                                <small><em>The UK's largest funeral planning broker</em></small>
                                 <p><a href="tel:+448000987931" class="text-purple"><strong>0800 0987 931</strong></a></p>
-                                <hr>
-                                <small id="not-happy">If you are not 100% happy with the service you have received from <a href="https://thefuneralplanningcompany.co.uk">The Funeral Planning Company</a> I would really like you to tell my manager. Please <a href="#"><strong>drop my manager an email</strong></a> so we know where we went wrong!</small>
-                                <hr>
+                                <hr />
+                                <small id="not-happy">If you are not 100% happy with the service you have received from <a href="https://thefuneralplanningcompany.co.uk">The Funeral Planning Company</a> I would really like you to tell my manager. Please <a href="mailto:admin@thefuneralplanningcompany.co.uk"><strong>drop my manager an email</strong></a> so we can know where we went wrong!</small>
+                                <hr />
                                 <small class="legal"><em>Privileged/Confidential information may be contained in this message and may be subject to legal privilege. Access to this e-mail by anyone other than the intended is unauthorised. If you are not the intended recipient (or responsible for delivery of the message to such person), you may not use, copy, distribute or deliver to anyone this message (or any part of its contents ) or take any action in reliance on it. In such case, you should destroy this message, and notify us immediately. If you have received this email in error, please notify us immediately by e-mail or telephone and delete the e-mail from any computer. If you or your employer does not consent to internet e-mail messages of this kind, please notify us immediately. All reasonable precautions have been taken to ensure no viruses are present in this e-mail. As our company cannot accept responsibility for any loss or damage arising from the use of this e-mail or attachments we recommend that you subject these to your virus checking procedures prior to use. The views, opinions, conclusions and other information expressed in this electronic mail are not given or endorsed by the company unless otherwise indicated by an authorised representative independent of this message</em></small>
-                                <hr>
+                                <hr />
                               </th>
                               <th class="expander"></th>
                             </tr>
@@ -315,8 +315,8 @@
                                             <table>
                                               <tr>
                                                 <td>
-                                                  <center data-parsed="">
-                                                    <a href="https://www.facebook.com/TheFuneralPlanningCompany/ " align="center " class="float-center ">Facebook <i class="fa fa-facebook-official " aria-hidden="true "></i></a></center>
+                                                  <center>
+                                                    <a href="https://www.facebook.com/TheFuneralPlanningCompany/ " class="float-center ">Facebook <i class="fa fa-facebook-official "></i></a></center>
                                                 </td>
                                               </tr>
                                             </table>
@@ -330,7 +330,7 @@
                                             <table>
                                               <tr>
                                                 <td>
-                                                  <center data-parsed=" "><a href="https://twitter.com/thefuneralplans" align="center " class="float-center ">Twitter <i class="fa fa-twitter " aria-hidden="true "></i></a></center>
+                                                  <center><a href="https://twitter.com/thefuneralplans" class="float-center ">Twitter <i class="fa fa-twitter "></i></a></center>
                                                 </td>
                                               </tr>
                                             </table>
@@ -344,7 +344,7 @@
                                             <table>
                                               <tr>
                                                 <td>
-                                                  <center data-parsed=" "><a href="# " align="center " class="float-ceentr ">Google+ <i class="fa fa-google-plus-official " aria-hidden="true "></i></a></center>
+                                                  <center><a href="https://plus.google.com/117595090140252847031" class="float-ceentr ">Google+ <i class="fa fa-google-plus-official "></i></a></center>
                                                 </td>
                                               </tr>
                                             </table>
@@ -363,7 +363,7 @@
                                       <h5 class="text-right ">Contact Info:</h5>
                                       <p class="text-right ">0800 0987 931
                                       </p>
-                                      <p class="text-right "><a href="mailto:info@thefuneralplanningcompany.co.uk ">info@thefuneralplanningcompany</a></p>
+                                      <p class="text-right "><a href="mailto:info@thefuneralplanningcompany.co.uk ">email us</a></p>
                                       <p class="text-right ">15 Kingston Mill
                                         <br /> Stockport
                                         <br /> SK3 0AL
@@ -378,7 +378,7 @@
                       </td>
                     </tr>
                   </table>
-                  <center data-parsed=" ">
+                  <center>
                     <table align="center " class="menu float-center ">
                       <tr>
                         <td>
@@ -386,7 +386,7 @@
                             <tr>
                               <th class="menu-item float-center "><a href="# " class="text-purple">Terms</a></th>
                               <th class="menu-item float-center "><a href="# " class="text-purple">Privacy</a></th>
-                              <th class="menu-item float-center "><a href="# " class="text-purple">Unsubscribe</a></th>
+                              <th class="menu-item float-center "><a href="*|UNSUB|*" class="text-purple">Unsubscribe</a></th>
                             </tr>
                           </table>
                         </td>

@@ -563,12 +563,12 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <script>
         window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')
     </script>
-    <script src="js/bootstrap.min.js"></script>
+    <script async src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/home.js"></script>
+    <script async type="text/javascript" src="js/wow.min.js"></script>
+    <script async type="text/javascript" src="js/home.js"></script>
     <script defer type="text/javascript">
         window.$crisp = [];
         window.CRISP_WEBSITE_ID = "72189a95-d610-4542-9a6a-5e2a13b2a2ad";
