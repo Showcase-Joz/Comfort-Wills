@@ -81,14 +81,6 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link rel="icon" href="favicon.ico">
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
-  <!-- Add to homescreen for Chrome on Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="shortcut icon" href="img/touch/icon-128x128.png">
-  <!-- Add to homescreen for Safari on iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-
-
-
 
   <link rel="apple-touch-icon" sizes="180x180" href="/img/touch/apple-touch-icon.png?v=1.2">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/touch/favicon-32x32.png?v=1.2">
@@ -98,14 +90,16 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link rel="manifest" href="/img/touch/manifest.json?v=1.2">
   <link rel="mask-icon" href="/img/touch/safari-pinned-tab.svg?v=1.2" color="#8d437e">
   <link rel="shortcut icon" href="/img/touch/favicon.ico?v=1.2">
-  <meta name="apple-mobile-web-app-title" content="Comfort Estate Planning - Home">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Comfort Estate Planning">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#8d437e">
-  <meta name="application-name" content="Comfort Estate Planning - Home">
+  <meta name="application-name" content="Comfort Estate Planning">
   <meta name="msapplication-TileColor" content="#8d437e">
   <meta name="msapplication-TileImage" content="/img/touch/mstile-144x144.png?v=1.2">
   <meta name="msapplication-config" content="/img/touch/browserconfig.xml?v=1.2">
-  <meta name="theme-color" content="#8d437e">
+  <meta name="theme-color" content="#ca8c1f">
+
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -580,7 +574,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <script async src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initialize"></script>
     <script async type="text/javascript" src="js/wow.min.js"></script>
     <script async type="text/javascript" src="js/home.js"></script>
     <script defer type="text/javascript">

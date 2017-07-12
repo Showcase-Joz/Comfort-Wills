@@ -1,20 +1,26 @@
 {
+    "lang": "en",
+    "dir": "ltr",
     "name": "Comfort Estate Planning",
+    "short_name": "Comfort Group",
+    "description": "Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.",
     "icons": [
         {
-            "src": "/img/touch/android-chrome-192x192.png?v=1.2",
+            "src": "\\/img\/touch\\/android-chrome-192x192.png?v=1.2",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image\/png"
         },
         {
-            "src": "/img/touch/android-chrome-512x512.png?v=1.2",
+            "src": "\/img\/touch\/android-chrome-512x512.png?v=1.2",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image\/png"
         }
     ],
-    "theme_color": "#8d437e",
+    "theme_color": "#ca8c1f",
     "background_color": "#8d437e",
-    "start_url": "https://comfortestateplanning.co.uk",
     "display": "standalone",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "default_locale": "en",
+    "manifest_version": 1.2,
+    "fullscreen": true
 }
