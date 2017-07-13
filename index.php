@@ -54,7 +54,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." property="og:description">
   <meta content="company" property="og:type">
   <meta content="https://comfortestateplanning.co.uk/index.php" property="og:url">
-  <meta content="https://comfortestateplanning.co.uk/img/small-still1.jpg" property="og:image">
+  <meta content="https://comfortestateplanning.co.uk/img/meta/fb-meta-facebook-shared-link.png" property="og:image">
   <meta content="Comfort Estate Planning" property="og:site_name">
   <meta content="100000433067496,771587369" property="fb:admins">
   <meta content="1832898456987553" property="fb:app_id">
@@ -65,11 +65,12 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <meta content="Comfort Estate Planning" name="twitter:title">
   <meta content="https://www.youtube.com/embed/amsYrZbJgL4" name="twitter:player">
   <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." name="twitter:description">
-  <meta content="https://comfortestateplanning.co.uk/img/small-still1.jpg" name="twitter:image">
+  <meta content="https://comfortestateplanning.co.uk/img/meta/tw-meta-twitter-link.png" name="twitter:image">
   <meta content="@mrjozzi" name="twitter:creator">
   
   <!--  Google+ OG  ==================================================  -->
   <meta content="senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates" name="news_keywords">
+  <link href="https://plus.google.com/116578895130704105587" rel="publisher">
   <link href="https://plus.google.com/104613685056534202018" rel="publisher">
   <link href="https://plus.google.com/+JolyonFavreau" rel="author">
 
@@ -571,12 +572,12 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <script>
         window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')
     </script>
-    <script async src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initialize"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap" async defer></script>
     <script async type="text/javascript" src="js/wow.min.js"></script>
-    <script async type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/home.min.js"></script>
     <script defer type="text/javascript">
         window.$crisp = [];
         window.CRISP_WEBSITE_ID = "72189a95-d610-4542-9a6a-5e2a13b2a2ad";

@@ -615,6 +615,25 @@ fieldset[disabled] .btn-purple.active {
     background-color: #fff
 }
 
+h1#firstHeading::before {
+    content: url(/img/touch/website-maps-company-name-google-maps-title-img.png);
+    display: block;
+}
+h1.firstHeading {
+    color: #8d437e;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+div#bodyContent {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+}
+#bodyContent h5 {
+    margin: 0;
+}
 @media(min-height:768px) {
     .full {
         background: url(../img/comfort-estate-planning-pollinating-bee-background-992.jpg) no-repeat center center fixed;
@@ -738,6 +757,12 @@ fieldset[disabled] .btn-purple.active {
         footer .container .footer [class*='col-md-']:last-child {
             text-align: right;
             padding: 0
+        }
+        h1.firstHeading {
+            float: right;        
+        }
+        div#bodyContent {
+            width: 50%;
         }
     }
     @media(min-width:1200px) {
