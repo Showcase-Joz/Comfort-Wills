@@ -32,7 +32,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Comfort Estate Planning</title>
+  <title>Comfort Estate Planning work to ensure your estate is up to date</title>
   <meta name="description" content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.">
   <meta name="keywords" content="senior citizen,funeral planning,funeral plans,insurance company,insurance broker,death preparation,last will and testament, will writers, funeral planners, estate planning, estate mangement, wills and estates">
   <meta content="en" name="language">
@@ -50,20 +50,19 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="humans.txt" rel="author">
   
   <!--  FACEBOOK OG  ==================================================  -->
-  <meta content="Wills and Estate Planning by Comfort Estate Planning, part of the Comfort Group" property="og:title">
+  <meta content="Comfort Estate Planning work to ensure your estate is up to date meeting the legal definition you wanted it to." property="og:title">
   <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." property="og:description">
   <meta content="company" property="og:type">
   <meta content="https://comfortestateplanning.co.uk/index.php" property="og:url">
   <meta content="https://comfortestateplanning.co.uk/img/meta/fb-meta-facebook-shared-link.png" property="og:image">
   <meta content="Comfort Estate Planning" property="og:site_name">
-  <meta content="100000433067496,771587369" property="fb:admins">
+  <meta content="100000433067496" property="fb:admins">
   <meta content="1832898456987553" property="fb:app_id">
   
   <!--  Twitter OG  ==================================================  -->
   <meta content="player" name="twitter:card">
   <meta content="@comfortestateuk" name="twitter:site">
-  <meta content="Comfort Estate Planning" name="twitter:title">
-  <meta content="https://www.youtube.com/embed/amsYrZbJgL4" name="twitter:player">
+  <meta content="Comfort Estate Planning work to ensure your estate is up to date meeting the legal definition you wanted it to." name="twitter:title">
   <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." name="twitter:description">
   <meta content="https://comfortestateplanning.co.uk/img/meta/tw-meta-twitter-link.png" name="twitter:image">
   <meta content="@mrjozzi" name="twitter:creator">
@@ -552,12 +551,16 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Message Received</h4>
+                    <h4 class="modal-title" id="myModalLabel">Message Received, here's your FREE guide!</h4>
                 </div>
-                <div class="modal-body">
-                    Thank you for sending us a message. We have now received it and are directing it to the correct department.
+                <div class="modal-body text-light bk-orange">
+                  <p class="lead">Thank you for sending us your details. We have now processing them and directing them to the correct member of our team.</p>
+                  
+                  <img id="freebie" class="img-responsive" src="/img/services/essence-of-estate-planning-freebie.png" alt="free downloadable guide to your will">
+                  <p>You can now download <a href="/downloads/benefits-of-a-will-download.pdf" download="your-free-guide-from-comfort-estate-planning.pdf" title="free downloadable guide">your FREE GUIDE to Estate Planning</p>
                 </div>
                 <div class="modal-footer">
+                    <a class="btn btn-orange pull-left" href="/downloads/benefits-of-a-will-download.pdf" download="your-free-guide-from-comfort-estate-planning.pdf" title="free downloadable guide" >DOWNLOAD YOUR FREE GUIDE</a>
                     <button type="button" class="btn btn-purple" data-dismiss="modal">OK</button>
                 </div>
             </div>

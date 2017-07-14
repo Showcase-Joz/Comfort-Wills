@@ -118,7 +118,7 @@ section#disclaimer {
     top: 50px;
     padding-bottom: 50px
 }
-section.sitemap td a,section.sitemap a:not(.btn), #disclaimer a:not(.btn) {
+section.sitemap td a,section.sitemap a:not(.btn), a:not(.btn) {
     color: #8d437e;
 }
 section.sitemap a:not(.btn), section.sitemap td:hover a {
@@ -633,6 +633,11 @@ div#bodyContent {
 }
 #bodyContent h5 {
     margin: 0;
+}
+img#freebie {
+    height: 400px;
+    text-align: center;
+    margin: auto;
 }
 @media(min-height:768px) {
     .full {
