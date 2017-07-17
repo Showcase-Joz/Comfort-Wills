@@ -2467,4 +2467,6 @@ $(document).ready(function() { $('#contact_form').bootstrapValidator({ feedbackI
         e.preventDefault();
         var $form = $(e.target);
         var bv = $form.data('bootstrapValidator');
-        $.post($form.attr('action'), $form.serialize(), function(result) { console.log(result); }, 'json'); }); });
+        $.post($form.attr('action'), $form.serialize(), function(result) { console.log(result); }, 'json'); });
+$('[data-toggle="tooltip"]').tooltip();   
+});

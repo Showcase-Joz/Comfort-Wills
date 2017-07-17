@@ -368,10 +368,27 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                         <p class="wow fadeIn" data-wow-offset="200">Throughout your lifetime you gather possessions, saving and investments. A car, furniture and all of your treasured personal items. You might own your home, all or part of a company and a holiday home.</p>
                         <p class="wow fadeIn" data-wow-offset="200">These possessions are referred to as your estate. It’s the job of your will to state who should receives these at the time of your death.</p>
                         <hr class="wow fadeIn" data-wow-offset="200">
-                        <a href="#contact" class="btn btn-lg btn-purple wow fadeInRightBig" data-wow-offset="250">Contact us today!</a>
+
+                        <div class="row">
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#contact" class="btn btn-lg btn-purple wow fadeInRightBig" data-wow-offset="250">Contact us today!</a>
+                          </div>
+                          <div class="col-xs-12 col-md-offset-4 col-md-4">
+                            <h5><i class="fa fa-level-down"></i> Not ready to contact us yet?</h5>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-12 col-md-offset-8 col-md-4">
+                            <a class="col-xs-2" href="https://www.facebook.com/ComfortEstatePlanning" data-toggle="tooltip" data-placement="bottom" title="follow us on Facebook"><i class="fa fa-facebook-official fa-lg fa-2x"></i></a>
+                            <a class="col-xs-2" href="https://www.linkedin.com/company/comfort-estate-planning" data-toggle="tooltip" data-placement="bottom" title="connect with us on LinkedIn"><i class="fa fa-linkedin-square fa-lg fa-2x"></i></a>
+                            <a class="col-xs-2" href="https://twitter.com/comfortestateuk" data-toggle="tooltip" data-placement="bottom" title="tweet us on Twitter"><i class="fa fa-twitter-square fa-lg fa-2x"></i></a>
+                            <a class="col-xs-2" href="https://plus.google.com/116578895130704105587" data-toggle="tooltip" data-placement="bottom" title="circle us on Google+"><i class="fa fa-google-plus-square fa-lg fa-2x" ></i></a>
+                            <a class="col-xs-2" href="https://www.instagram.com/comfortestateplanning" data-toggle="tooltip" data-placement="bottom" title="join us on Instagram"><i class="fa fa-instagram fa-lg fa-2x"></i></a>
+                          </div>
+                        </div>
                     </div>
                     <div class="col-md-4 side-img">
-                        <img src="img/will-proteted-family.jpg" alt="What is my estate?">
+                      <img src="img/will-proteted-family.jpg" alt="What is my estate?">
                     </div>
                 </div>
             </div>

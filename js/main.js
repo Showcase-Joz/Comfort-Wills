@@ -209,3 +209,6 @@ $(window).load(function() {
     var currentYear = new Date().getFullYear();
     $(".year").text(currentYear);
 })(jQuery);
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
