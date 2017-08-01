@@ -6,6 +6,5 @@ Disallow: /james.russell/
 Disallow: /test/
 Disallow: comfort-estates.sublime-project
 Disallow: comfort-estates.sublime-workspace
-Disallow: email.html
 
 Sitemap: https://comfortestateplanning.co.uk/sitemaps/sitemap.xml

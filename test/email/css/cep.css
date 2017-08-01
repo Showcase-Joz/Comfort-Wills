@@ -1,32 +1,32 @@
 .body, center {
-    background: #ffe985 !important;
+    background: #ca8c1f !important;
 }
 center {
     width: 100%;
     min-width: 580px;
-    background: #ffe985 !important;
+    background: #ca8c1f !important;
 }
 .button center {
     background: inherit !important;
 }
 table.menu.float-center {
     width: 100% !important;
-    background: #ffe985 !important;
+    background: #ca8c1f !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
 .header .wrapper-inner {
     padding: 20px;
-    background-color: #ffe985;
+    background-color: #ca8c1f;
 }
 
 p.header-title.text-right {
-    color: #8065B2;
+    color: #8d437e;
     text-transform: uppercase;
 }
 
 a.text-purple,.text-purple,table.menu td.menu-item a, table.menu th.menu-item a {
-    color: #8065B2;
+    color: #8d437e;
 }
 
 a.text-purple:hover,table.menu td.menu-item a:hover, table.menu th.menu-item a:hover {
@@ -34,7 +34,7 @@ a.text-purple:hover,table.menu td.menu-item a:hover, table.menu th.menu-item a:h
 }
 
 a.text-yellow,.text-yellow {
-    color: #FFE985;
+    color: #ca8c1f;
 }
 
 a.text-hover-yellow:hover,.text-hover-yellow:hover {
@@ -42,7 +42,7 @@ a.text-hover-yellow:hover,.text-hover-yellow:hover {
 }
 
 th.callout-inner.primary {
-    background: #8065B2;
+    background: #8d437e;
     border: 1px solid #444444;
     width: initial;;
 }
@@ -54,6 +54,14 @@ th.callout-inner.primary p {
 }
 #not-happy {
   
+}
+.img-responsive {
+    height: 100%;
+    width: auto;
+}
+.img-responsive-50 {
+    height: auto;
+    width: 50%;
 }
 .rounded {
     border-top-right-radius: 25px;
@@ -111,14 +119,14 @@ table.button {
 }
 
 table.button.secondary table td {
-    background: #FFE985;
+    background: #ca8c1f;
     color: #777777;
-    border: 0px solid #FFE985;
+    border: 0px solid #ca8c1f;
 }
 table.button.purple table td {
-    background: #8065B2;
+    background: #8d437e;
     color: #ffffff;
-    border: 0px solid #8065B2;
+    border: 0px solid #8d437e;
 }
 table.button.secondary table a {
     color: #777777;

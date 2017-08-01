@@ -50,14 +50,19 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="humans.txt" rel="author">
   
   <!--  FACEBOOK OG  ==================================================  -->
-  <meta content="Comfort Estate Planning work to ensure your estate is up to date meeting the legal definition you wanted it to." property="og:title">
-  <meta content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements." property="og:description">
-  <meta content="company" property="og:type">
-  <meta content="https://comfortestateplanning.co.uk/index.php" property="og:url">
-  <meta content="https://comfortestateplanning.co.uk/img/meta/fb-meta-facebook-shared-link.png" property="og:image">
-  <meta content="Comfort Estate Planning" property="og:site_name">
-  <meta content="100000433067496" property="fb:admins">
-  <meta content="1832898456987553" property="fb:app_id">
+  <meta property="og:type" content="company">
+  <meta property="og:title" content="Comfort Estate Planning work to ensure your estate is up to date meeting the legal definition you wanted it to.">
+  <meta property="og:url" content="https://comfortestateplanning.co.uk/">
+  <meta property="og:image" content="https://comfortestateplanning.co.uk/img/meta/fb-meta-facebook-shared-link.png">
+  <meta property="og:description" content="Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.">
+  <meta property="og:site_name" content="Comfort Estate Planning">
+  <meta property="fb:admins" content="100000433067496">
+  <meta property="fb:app_id" content="1832898456987553">
+  <meta property="business:contact_data:street_address" content="15a Kingston Business Centre">
+  <meta property="business:contact_data:locality" content="Stockport">
+  <meta property="business:contact_data:region" content="Greater Manchester">
+  <meta property="business:contact_data:postal_code" content="SK3 0AL">
+  <meta property="business:contact_data:country_name" content="United Kingdom">
   
   <!--  Twitter OG  ==================================================  -->
   <meta content="player" name="twitter:card">
@@ -88,7 +93,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link rel="icon" type="image/png" sizes="192x192" href="/img/touch/android-chrome-192x192.png?v=1.2">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/touch/favicon-16x16.png?v=1.2">
   <link rel="manifest" href="/img/touch/manifest.json?v=1.2">
-  <link rel="mask-icon" href="/img/touch/safari-pinned-tab.svg?v=1.2" color="#8d437e">
+  <link rel="mask-icon" color="#8d437e" href="/img/touch/safari-pinned-tab.svg?v=1.2">
   <link rel="shortcut icon" href="/img/touch/favicon.ico?v=1.2">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Comfort Estate Planning">
@@ -143,7 +148,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     "email": "info@comfortestateplanning.co.uk",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "15a Kingston Mill",
+      "streetAddress": "15a Kingston Business Centre",
       "addressLocality": "Stockport",
       "addressRegion": "Greater Manchester",
       "postalCode": "SK3 0AL",
@@ -163,7 +168,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     "foundingLocation": {
       "@type": "place",
       "address": {
-        "streetAddress": "15 Kingston Mill",
+        "streetAddress": "15 Kingston Business Centre",
         "addressLocality": "Stockport",
         "addressRegion": "Greater Manchester",
         "postalCode": "SK3 0AL",
@@ -243,11 +248,30 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a href="downloads" class="visible-xs-inline-block visible-sm-inline-block wow slideInDown" data-wow-delay="8s" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Read or Download our information booklets by clicking here"><i class="fa fa-bookmark fa-2x"></i></a>
                 <a class="navbar-brand" href="#home">Comfort Estate Planning</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="tel:+448000987841">0800 0987 841</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="/" onclick="noevent(event)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-info-circle"></i></a>
+                      <ul class="dropdown-menu dropdown-menu-short-bottom">
+                        <li><a href="resources">Resources <i class="fa fa-bookmark-o pull-right"></i></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="privacy">Privacy Policy</a></li>
+                        <li><a href="disclaimer">Disclaimer</a></li>
+                        <li><a href="sitemap">Sitemap</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="social-inline"><a class="social-btn" href="https://www.facebook.com/ComfortEstatePlanning"><i class="fa fa-facebook-official fa-lg"></i></a>
+                        <a class="social-btn" href="https://www.linkedin.com/company/comfort-estate-planning"><i class="fa fa-linkedin-square fa-lg "></i></a>
+                        <a class="social-btn" href="https://twitter.com/comfortestateuk"><i class="fa fa-twitter-square fa-lg"></i></a>
+                        <a class="social-btn" href="https://plus.google.com/116578895130704105587"><i class="fa fa-google-plus-square fa-lg"></i></a>
+                        <a class="social-btn" href="https://www.instagram.com/comfortestateplanning"><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a class="dropdown-bottom" href="https://comfortestateplanning.co.uk/#contact">Get in Touch</a></li>
+                      </ul>
                     </li>
                     <li class="active"><a href="#home">Home</a>
                     </li>
@@ -255,6 +279,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                     </li>
                     <li><a href="#contact">Contact</a>
                     </li>
+                    <li><a href="resources" class="visible-md-inline-block visible-lg-inline-block wow slideInDown" data-wow-delay="8s" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Read or Download our information booklets by clicking here"><i class="fa fa-bookmark fa-2x"></i></a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -277,6 +302,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                 </div>
                                 <div class="top-big-link wow fadeInUp">
                                     <a class="btn btn-lg btn-orange scroll-link" href="#about">Learn more</a>
+                                    <a class="pull-right btn btn-lg btn-orange scroll-link" href="resources" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Read or Download our information booklets"><small>PDF's</small> <i class="fa fa-bookmark"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -337,9 +363,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                             </div>
                             <button type="submit" class="btn btn-lg btn-purple">Enquire now!</button>
                             <div class="form-links pull-right">
-                                <a href="privacy.html">Privacy</a> -
-                                <a href="disclaimer.html">Disclaimer</a> -
-                                <a href="sitemap.html">Sitemap</a>
+                                <a href="privacy">Privacy</a> -
+                                <a href="disclaimer">Disclaimer</a> -
+                                <a href="sitemap">Sitemap</a>
                             </div>
                         </form>
                     </div>
@@ -371,21 +397,24 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 
                         <div class="row">
                           <div class="col-xs-12 col-md-4">
-                            <a href="#contact" class="btn btn-lg btn-purple wow fadeInRightBig" data-wow-offset="250">Contact us today!</a>
+                            <a href="#contact" class="btn btn-lg btn-purple wow fadeInLeftBig">Contact us today!</a>
                           </div>
-                          <div class="col-xs-12 col-md-offset-4 col-md-4">
+                          <div class="col-xs-12 col-md-offset-4 col-md-4 wow fadeInUp" data-wow-delay="350" data-wow-duration="2s">
                             <h5><i class="fa fa-level-down"></i> Not ready to contact us yet?</h5>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-xs-12 col-md-offset-8 col-md-4">
-                            <a class="col-xs-2" href="https://www.facebook.com/ComfortEstatePlanning" data-toggle="tooltip" data-placement="bottom" title="follow us on Facebook"><i class="fa fa-facebook-official fa-lg fa-2x"></i></a>
-                            <a class="col-xs-2" href="https://www.linkedin.com/company/comfort-estate-planning" data-toggle="tooltip" data-placement="bottom" title="connect with us on LinkedIn"><i class="fa fa-linkedin-square fa-lg fa-2x"></i></a>
-                            <a class="col-xs-2" href="https://twitter.com/comfortestateuk" data-toggle="tooltip" data-placement="bottom" title="tweet us on Twitter"><i class="fa fa-twitter-square fa-lg fa-2x"></i></a>
-                            <a class="col-xs-2" href="https://plus.google.com/116578895130704105587" data-toggle="tooltip" data-placement="bottom" title="circle us on Google+"><i class="fa fa-google-plus-square fa-lg fa-2x" ></i></a>
-                            <a class="col-xs-2" href="https://www.instagram.com/comfortestateplanning" data-toggle="tooltip" data-placement="bottom" title="join us on Instagram"><i class="fa fa-instagram fa-lg fa-2x"></i></a>
+                          <div class="col-xs-12 col-md-offset-8 col-md-4 wow zoomIn" data-wow-duration="3s" data-wow-delay="700ms">
+                            <a class="col-xs-2" href="https://www.facebook.com/ComfortEstatePlanning" data-toggle="tooltip" data-placement="bottom" title="follow us on Facebook"><i class="fa fa-facebook-official fa-lg fa-2x wow bounce" data-wow-delay="300ms" data-wow-iteration="7" data-wow-duration="2s"></i></a>
+                            <a class="col-xs-2" href="https://www.linkedin.com/company/comfort-estate-planning" data-toggle="tooltip" data-placement="bottom" title="connect with us on LinkedIn"><i class="fa fa-linkedin-square fa-lg fa-2x wow bounce" data-wow-delay="400ms" data-wow-iteration="7" data-wow-duration="2s"></i></a>
+                            <a class="col-xs-2" href="https://twitter.com/comfortestateuk" data-toggle="tooltip" data-placement="bottom" title="tweet us on Twitter"><i class="fa fa-twitter-square fa-lg fa-2x wow bounce" data-wow-delay="500ms" data-wow-iteration="7" data-wow-duration="2s"></i></a>
+                            <a class="col-xs-2" href="https://plus.google.com/116578895130704105587" data-toggle="tooltip" data-placement="bottom" title="circle us on Google+"><i class="fa fa-google-plus-square fa-lg fa-2x wow bounce" data-wow-delay="600ms" data-wow-iteration="7" data-wow-duration="2s"></i></a>
+                            <a class="col-xs-2" href="https://www.instagram.com/comfortestateplanning" data-toggle="tooltip" data-placement="bottom" title="join us on Instagram"><i class="fa fa-instagram fa-lg fa-2x wow bounce" data-wow-delay="700ms" data-wow-iteration="7" data-wow-duration="2s"></i></a>
                           </div>
                         </div>
+                        <div class="col-xs-12 col-md-offset-8 col-md-4 wow flipInX" data-wow-delay="1850ms" data-wow-duration="2s">
+                            <h6>&nbsp;&nbsp;<i class="fa fa-user"></i> stay social with us instead</h6>
+                          </div>
                     </div>
                     <div class="col-md-4 side-img">
                       <img src="img/will-proteted-family.jpg" alt="What is my estate?">
@@ -489,7 +518,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                                     <div class="inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-terminal"></i></span>
-                                            <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" value=" <?php echo $_POST[" comment "] ?>"></textarea>
+                                            <textarea class="form-control" name="comment" placeholder="Write your message here" rows="6" value="<?php echo $_POST[' comment '] ?>"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -574,7 +603,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
                   <p class="lead">Thank you for sending us your details. We have now processing them and directing them to the correct member of our team.</p>
                   
                   <img id="freebie" class="img-responsive" src="/img/services/essence-of-estate-planning-freebie.png" alt="free downloadable guide to your will">
-                  <p>You can now download <a href="/downloads/benefits-of-a-will-download.pdf" download="your-free-guide-from-comfort-estate-planning.pdf" title="free downloadable guide">your FREE GUIDE to Estate Planning</p>
+                  <p>You can now download <a href="/downloads/benefits-of-a-will-download.pdf" download="your-free-guide-from-comfort-estate-planning.pdf" title="free downloadable guide">your FREE GUIDE to Estate Planning</a></p>
                 </div>
                 <div class="modal-footer">
                     <a class="btn btn-orange pull-left" href="/downloads/benefits-of-a-will-download.pdf" download="your-free-guide-from-comfort-estate-planning.pdf" title="free downloadable guide" >DOWNLOAD YOUR FREE GUIDE</a>
@@ -595,10 +624,10 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap" async defer></script>
-    <script async type="text/javascript" src="js/wow.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWBcF_oKeV8jty0KOCCcPn01Fgo9cBrAA&callback=initMap" async ></script>
+    <script defer type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/home.min.js"></script>
-    <script defer type="text/javascript">
+    <script type="text/javascript">
         window.$crisp = [];
         window.CRISP_WEBSITE_ID = "72189a95-d610-4542-9a6a-5e2a13b2a2ad";
         (function() {

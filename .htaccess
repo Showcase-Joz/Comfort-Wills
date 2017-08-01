@@ -536,8 +536,19 @@ RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule .* https://%1%{REQUEST_URI} [R=301,L]
 
-## 301 Redirects
+# remove file extension from url
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+RewriteRule ^(.*)$ $1.html
 
+#let traffic through
+RewriteCond %{REQUEST_URI} "/downloads/"
+
+## 301 Redirects
+Redirect https://comfortestateplanning.co.uk/downloads.html https://comfortestateplanning.co.uk/resources
 
 #HTTP Strict Transport Security
 #header set Strict-Transport-Security: max-age=31536000 env=HTTPS

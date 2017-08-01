@@ -553,6 +553,69 @@ textarea.form-control::-webkit-input-placeholder {
     float: right
 }
 
+.navbar-nav>li>.dropdown-menu {
+    background-color: #8d437e;
+    color: #ffffff;
+}
+.dropdown-menu>li>a {
+    color: #ffffff;
+    display: block;
+    padding: 5px 20px;
+}
+.dropdown-menu>li>a.social-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 2px;
+}
+
+.dropdown-menu>li>a.dropdown-bottom {
+    background-color: #ffffff;
+    color: #ca8c1f;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.dropdown-menu>li>a.social-btn, .dropdown-menu>li>a.social-btn {
+    background-color: transparent;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ca8c1f;
+    text-decoration: none;
+}
+.dropdown-menu .divider2 {
+    margin: 9px 0 0 0;
+}
+
+.navbar-header a > i.fa.fa-bookmark {
+    position: relative;
+    top: -2px;
+    right: -15px;
+    color: #8d437e;
+}
+.dropdown-menu-short-bottom {
+    padding: 5px 0 0 0;
+}
+.navbar-nav>li {
+    max-height: 50px;
+}
+.social-inline {
+    padding: 20px;
+}
+.social-btn {
+    padding: 2px;
+    display: inline-block;
+}
+i.fa.fa-bookmark {
+    position: relative;
+    top: -15px;
+    right: -5px;
+    color: #8d437e;
+}
+.social-inline {
+    display: inline;
+}
+
 .contact-methods:last-of-type {
     display: block
 }
@@ -738,6 +801,7 @@ img#freebie {
         padding: inherit
     }
     @media(min-width:992px) {
+        
         .full {
             background: url(../img/comfort-estate-planning-pollinating-bee-background-1200.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
@@ -805,6 +869,12 @@ img#freebie {
         }
     }
     @media(min-width:1200px) {
+        .navbar-nav a > i.fa.fa-bookmark {
+            position: relative;
+            top: -17px;
+            right: 0px;
+            color: #8d437e;
+        }
         .full {
             background: url(../img/comfort-estate-planning-pollinating-bee-background-1920.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;

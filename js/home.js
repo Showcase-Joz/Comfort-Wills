@@ -2468,5 +2468,10 @@ $(document).ready(function() { $('#contact_form').bootstrapValidator({ feedbackI
         var $form = $(e.target);
         var bv = $form.data('bootstrapValidator');
         $.post($form.attr('action'), $form.serialize(), function(result) { console.log(result); }, 'json'); });
-$('[data-toggle="tooltip"]').tooltip();   
+$('[data-toggle="tooltip"]').tooltip();
+
+noevent = function(e) {
+        e.preventDefault();
+    }
+      
 });
