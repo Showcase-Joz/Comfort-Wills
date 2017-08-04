@@ -549,6 +549,12 @@ RewriteCond %{REQUEST_URI} "/downloads/"
 
 ## 301 Redirects
 Redirect https://comfortestateplanning.co.uk/downloads.html https://comfortestateplanning.co.uk/resources
+Redirect https://comfortestateplanning.co.uk/index.php https://comfortestateplanning.co.uk/index
+Redirect https://comfortestateplanning.co.uk/privacy.html https://comfortestateplanning.co.uk/privacy
+Redirect https://comfortestateplanning.co.uk/disclaimer.html https://comfortestateplanning.co.uk/disclaimer
+Redirect https://comfortestateplanning.co.uk/sitemap.html https://comfortestateplanning.co.uk/sitemap
+
+Redirect https://comfortestateplanning.co.uk/404.html https://comfortestateplanning.co.uk/404
 
 #HTTP Strict Transport Security
 #header set Strict-Transport-Security: max-age=31536000 env=HTTPS

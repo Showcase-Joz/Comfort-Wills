@@ -78,8 +78,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
   <link href="https://plus.google.com/104613685056534202018" rel="publisher">
   <link href="https://plus.google.com/+JolyonFavreau" rel="author">
 
+  <link rel="canonical" href="https://comfortestateplanning.co.uk/index">
 
-  <link rel="alternate" href="https://comfortestateplanning.co.uk/"  hreflang="en" />
+  <link rel="alternate" href="https://comfortestateplanning.co.uk/index"  hreflang="en" />
   <link rel="alternate" href="https://comfortestateplanning.co.uk/index.php" hreflang="en-gb" />
 
 
