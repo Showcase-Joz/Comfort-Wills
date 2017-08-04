@@ -6,14 +6,22 @@
 
 <item>
      <link>https://comfortestateplanning.co.uk/</link>
-     <title>Comfort Estate Planning</title>
+     <title>Comfort Estate Planning work to ensure your estate is up to date</title>
      <description>Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://comfortestateplanning.co.uk/privacy.html</link>
+     <link>https://comfortestateplanning.co.uk/resources</link>
+     <title>Resources from Comfort Estate Planning</title>
+     <description>Beat the postman and save a tree...view and download our information booklets and leaflets.</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://comfortestateplanning.co.uk/privacy</link>
      <title>Privacy Policy for Comfort Estate Planning</title>
      <description>Privacy Policy notice for Comfort Estate Planning users. You should read this information for your own safety.</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -21,15 +29,15 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://comfortestateplanning.co.uk/disclaimer.html</link>
+     <link>https://comfortestateplanning.co.uk/disclaimer</link>
      <title>Disclaimer for Comfort Estate Planning</title>
-     <description>Legal website disclaimer for Comfort Estate Planning website users. You should read this information for your own safety!</description>
+     <description>Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://comfortestateplanning.co.uk/sitemap.html</link>
+     <link>https://comfortestateplanning.co.uk/sitemap</link>
      <title>Sitemap for Comfort Estate Planning</title>
      <description>Site Map for Comfort Estate Planning. Enabling you to navigate our website with direction.</description>
      <ror:updatePeriod>weekly</ror:updatePeriod>
@@ -37,15 +45,15 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://comfortestateplanning.co.uk/index.php</link>
-     <title>Comfort Estate Planning</title>
-     <description>Comfort Estate Planning works with you ensuring your will and estate are in good order. Our specialists are able to help you alter or confirm your estate arrangements.</description>
+     <link>https://comfortestateplanning.co.uk/downloads/benefits-of-a-will-download.pdf</link>
+     <title></title>
+     
      <ror:updatePeriod>weekly</ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
+     <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://comfortestateplanning.co.uk/downloads/benefits-of-a-will-download.pdf</link>
+     <link>https://comfortestateplanning.co.uk/downloads/estate-planning-booklet.pdf</link>
      <title></title>
      
      <ror:updatePeriod>weekly</ror:updatePeriod>
